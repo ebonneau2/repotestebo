@@ -9,9 +9,9 @@
     <relativePath>../../../</relativePath>
   </parent>
   <groupId>org.example.project_ebo_us_01.job</groupId>
-  <artifactId>webhook_sleep</artifactId>
+  <artifactId>webhook_sleep_test_ebo</artifactId>
   <version>0.1.0</version>
-  <name>PROJECT_EBO_US_01 webhook_sleep-0.1.0 (0.1,Job Designs)</name>
+  <name>PROJECT_EBO_US_01 webhook_sleep_test_ebo-0.1.0 (0.1,Job Designs)</name>
   <properties>
     <talend.job.type>Standard</talend.job.type>
     <talend.job.date>${maven.build.timestamp}</talend.job.date>
@@ -38,8 +38,8 @@
     <current.test.resources.dir>${basedir}/src/test/resources</current.test.resources.dir>
     <project.distribution-management.repository.url>${project.distributionManagement.repository.url}</project.distribution-management.repository.url>
     <current.bundle.resources.dir>${basedir}/src/main/bundle-resources</current.bundle.resources.dir>
-    <talend.job.name>webhook_sleep</talend.job.name>
-    <talend.job.finalName>webhook_sleep_0_1</talend.job.finalName>
+    <talend.job.name>webhook_sleep_test_ebo</talend.job.name>
+    <talend.job.finalName>webhook_sleep_test_ebo_0_1</talend.job.finalName>
   </properties>
   <dependencies>
     <dependency>
