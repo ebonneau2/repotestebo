@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/webhook_sleep_test_ebo_0.1</module>
+    <module>jobs/process/system_jobs/jvm_parameter_set_0.3</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO_US_01</talend.project.name>
