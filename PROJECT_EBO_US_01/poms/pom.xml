@@ -15,6 +15,7 @@
     <module>jobs/process/webhook_sleep_test_ebo_0.1</module>
     <module>jobs/process/system_jobs/jvm_parameter_set_0.3</module>
     <module>jobs/process/log_types_generation_success_0.1</module>
+    <module>jobs/process/copy_of_log_types_generation_failed_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO_US_01</talend.project.name>
