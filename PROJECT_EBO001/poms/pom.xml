@@ -11,6 +11,7 @@
   <modules>
     <module>code/routines</module>
     <module>code/beans</module>
+    <module>jobs/process/flow_parameters_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO001</talend.project.name>
