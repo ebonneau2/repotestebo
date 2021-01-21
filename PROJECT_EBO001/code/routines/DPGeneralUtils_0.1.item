@@ -1,0 +1,81 @@
+package routines;
+
+import java.beans.IntrospectionException;
+import java.lang.reflect.InvocationTargetException;
+import java.util.Map;
+
+
+public class DPGeneralUtils {
+
+	public static Map<String, String> objectToMap(Object object)
+
+			throws IllegalAccessException, IllegalArgumentException,
+
+			InvocationTargetException, IntrospectionException {
+
+		if (object == null) {
+
+			throw new IllegalArgumentException(
+
+					"object parameter cannot be null");
+
+		}
+
+		final java.util.Map<String, String> map = new java.util.HashMap<String, String>();
+
+		for (java.beans.PropertyDescriptor pd : java.beans.Introspector
+
+				.getBeanInfo(object.getClass()).getPropertyDescriptors()) {
+
+			if (pd.getReadMethod() != null && !"class".equals(pd.getName())) {
+
+				Object returnValue = pd.getReadMethod().invoke(object);
+
+				map.put(pd.getShortDescription(), returnValue == null ? ""
+
+						: returnValue.toString());
+
+			}
+
+		}
+
+		return map;
+
+	}
+
+	public static void Initialize(final String timeZone) {
+
+		if (timeZone == null || timeZone.isEmpty()) {
+
+			throw new RuntimeException("Unable to set default timezone, timeZone parameter not set");
+
+		}
+
+		System.out.println(String.format("Initializing timezone to %s", timeZone));
+
+		// Set default time zone UTC
+
+		java.util.TimeZone.setDefault(java.util.TimeZone.getTimeZone(timeZone));
+
+	}
+
+	public static void printDataAscii(final String jobName) {
+
+		System.out.println(jobName);
+		System.out
+				.println(jobName + "_________________________________________________________________________________");
+		System.out.println(jobName);
+		System.out.println(jobName + "######");
+		System.out.println(jobName + "#     #   ##   #####   ##");
+		System.out.println(jobName + "#     #  #  #    #    #  #");
+		System.out.println(jobName + "#     # #    #   #   #    #");
+		System.out.println(jobName + "#     # ######   #   ######");
+		System.out.println(jobName + "#     # #    #   #   #    #");
+		System.out.println(jobName + "######  #    #   #   #    #");
+		System.out.println(jobName);
+		System.out
+				.println(jobName + "_________________________________________________________________________________");
+		System.out.println(jobName);
+
+	}
+}

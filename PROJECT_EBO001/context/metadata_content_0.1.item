@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_4m_coPgtEeqw09yXtwoL6g" xmi:version="2.0">
+  <contextParameter comment="" name="mtd_sql_process_id" prompt="mtd_sql_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cofgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_snowflake_object_name" prompt="mtd_snowflake_object_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_covgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_source_select_columns" prompt="mtd_source_select_columns?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_co_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_source_select_object_string" prompt="mtd_source_select_object_string?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cpPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_where_clause_parameter" prompt="mtd_where_clause_parameter?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cpfgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_cdc_column" prompt="mtd_cdc_column?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cpvgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_refresh_is_enabled" prompt="mtd_refresh_is_enabled?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cp_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_refresh_type" prompt="mtd_refresh_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cqPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_blob_destination" prompt="mtd_blob_destination?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cqfgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_snowflake_sql_process_location_1" prompt="mtd_snowflake_sql_process_location_1?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cqvgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_initially_loaded" prompt="mtd_initially_loaded?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cq_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_load_id_index_location" prompt="mtd_load_id_index_location?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_crPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_process_sequence_id" prompt="mtd_process_sequence_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_crfgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_group_name" prompt="mtd_group_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_crvgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_sequence_order" prompt="mtd_sequence_order?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cr_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_phase_type" prompt="mtd_phase_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_csPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_source_system_name" prompt="mtd_source_system_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_csfgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_sql_engine_name" prompt="mtd_sql_engine_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_csvgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_connection_string" prompt="mtd_connection_string?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cs_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_stage_identifier_string" prompt="mtd_stage_identifier_string?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_ctPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_blob_container_name" prompt="mtd_blob_container_name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_ctfgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_database" prompt="mtd_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_ctvgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_scheme" prompt="mtd_scheme?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_ct_gtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_sf_database" prompt="mtd_sf_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_4m_cuPgtEeqw09yXtwoL6g"/>
+  <contextParameter comment="" name="mtd_file_format" prompt="mtd_file_format?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2qL8IP6YEeqvYZ9UFyds5w"/>
+  <contextParameter comment="" name="mtd_pattern" prompt="mtd_pattern?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_2qL8If6YEeqvYZ9UFyds5w"/>
+  <contextParameter comment="" name="mtd_snowflake_sql_process_location_2" prompt="mtd_snowflake_sql_process_location_2?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_glLFcP6bEeqvYZ9UFyds5w"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7d5f8eed-d36e-4ac0-ab84-c53b1e3c5c5a"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SSbakZZ1DKzOoTFlqpYdGyTyzDmZ+rTkaCCWXbxF7wNp3p1Gw4PNOj4tNV0CBM38CastOVjtgMyC&#13;
+5EQOXyiS9g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_04889d68-4fb5-42e1-8639-007563441cb8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OUmcaCeVk1QIw4S5XaqVisGTNY0Or0pOrswN0yB+o+KtAuTgGxsh8BecQetcA//xryiw8Fb5EbJZ&#13;
+z1esz91iXg==</DigestValue></Reference></SignedInfo><SignatureValue>mbh8UVWCtZoBP2Fg5A+q1O4CmmgvaAPtVmOMaQsDTzw/vfNPDK5yMn+XpbeS+cMbGUO9ln0ACVI9&#13;
+h3PuqSoYerpiHrI7x9mJxkKE/lcZv5ODKDpV8oiA/0P8zI0OlhaJKkm73mTtj8gTx8R6ewvvAmL3&#13;
+nysYVE3dRY2N/S+ZepJFSU4IxNEjCGXFBuTeHXF9cPC4OSncV9Ibujws2hNIU+3Udclo83zh4IV4&#13;
+xiuydq4GJIVVXAF1rAxo8uEv/szwyr9DZtOjMCg+Dcxv4bI3yv9Tao96uQc8ZFKZHnZvmj8Bua8+&#13;
+XepgKZm6sWVThrpodIsQIczakd+F6jlrb9MfEQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_04889d68-4fb5-42e1-8639-007563441cb8" Target="#_7d5f8eed-d36e-4ac0-ab84-c53b1e3c5c5a"><Timestamp>2021-01-21 08:11:51</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
