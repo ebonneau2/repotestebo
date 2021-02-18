@@ -1,0 +1,14 @@
+{
+  "itemId" : "_B-HNIDeIEeqrOOC5BgZTRA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_B-HNIDeIEeqrOOC5BgZTRA",
+    "parameterList" : [ {
+      "id" : "_3A7jkHHYEeu2H87u4ZJY3w",
+      "name" : "connection_fake_username"
+    }, {
+      "id" : "_3A7jkXHYEeu2H87u4ZJY3w",
+      "name" : "connection_fake_password"
+    } ]
+  } ]
+}
