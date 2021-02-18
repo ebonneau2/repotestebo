@@ -14,6 +14,7 @@
     <module>jobs/process/customers/jobhive_0.1</module>
     <module>jobs/process/log_types_generation_0.1</module>
     <module>jobs/process/job_for_logs_0.1</module>
+    <module>jobs/process/log_types_generation_big_logs_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO01</talend.project.name>
