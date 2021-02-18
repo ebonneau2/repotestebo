@@ -1,0 +1,14 @@
+{
+  "itemId" : "_wFLtgFPzEeqa5faWHe7dSg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_wFLtgFPzEeqa5faWHe7dSg",
+    "parameterList" : [ {
+      "id" : "_dyoIEHHYEeu2H87u4ZJY3w",
+      "name" : "resource_file_filetotest"
+    }, {
+      "id" : "_dyoIEXHYEeu2H87u4ZJY3w",
+      "name" : "resource_flow_temp_folder"
+    } ]
+  } ]
+}
