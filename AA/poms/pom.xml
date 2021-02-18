@@ -15,6 +15,9 @@
     <module>jobs/process/log_types_generation_0.1</module>
     <module>jobs/process/webhook_sleep_0.1</module>
     <module>jobs/process/tests/job_with_resourcefile_0.1</module>
+    <module>jobs/process/tests/job_with_resourcefile_csv_and_excel_files_0.1</module>
+    <module>jobs/process/job_for_logs_0.1</module>
+    <module>jobs/process/tests/filter_rows_7.2</module>
   </modules>
   <properties>
     <talend.project.name>AA</talend.project.name>

@@ -1,0 +1,14 @@
+{
+  "itemId" : "_M5QKAFl_Eeq9m54FtUfnfA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_M5QKAFl_Eeq9m54FtUfnfA",
+    "parameterList" : [ {
+      "id" : "_tic28HHYEeu2H87u4ZJY3w",
+      "name" : "parameter_nb_dev_logs"
+    }, {
+      "id" : "_tic28XHYEeu2H87u4ZJY3w",
+      "name" : "parameter_nb_usr_logs"
+    } ]
+  } ]
+}
