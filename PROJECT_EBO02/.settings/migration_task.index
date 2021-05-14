@@ -244,6 +244,11 @@
     "version" : "6.2.0",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.designer.core.generic.model.migration.RevertJDBCContextModeMappingFileValueMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
     "id" : "org.talend.designer.core.generic.model.migration.Salesforce620Migration",
     "breaks" : "6.2.1",
     "version" : "6.2.1",
@@ -270,6 +275,11 @@
     "status" : "noimpact"
   }, {
     "id" : "org.talend.designer.core.utils.FixModuleListInBDJDBCMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.core.utils.UpdateModuleListInComponents2MigrationTask",
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "noimpact"
@@ -318,6 +328,11 @@
     "breaks" : "5.1.1",
     "version" : "5.1.2",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.designer.esb.webservice.migration.ReplaceDefaultProxyIPMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.designer.joblet.repository.migration.ResetJobletComponentNameMigrationTask",
     "breaks" : "6.3.0",
@@ -734,6 +749,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.AddAndSetDBVersionValueCosmosDB",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.AddApiModeToMarketoComponentsMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.3.2",
@@ -1144,9 +1164,19 @@
     "version" : "5.3.1",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ChangeFileInputDynamicFieldLength",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.ChangeFileInputJSONUrlUnCheckWhenXpathCheck",
     "breaks" : "5.3.0",
     "version" : "5.3.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.ChangeGreenplumDefaultDriverMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.ChangeHadoopVersionValue4TDQComponents",
@@ -1528,15 +1558,30 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.FixProjectResourceLink",
+    "breaks" : "5.1.1",
+    "version" : "5.1.2",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.FixUnevenItemContextParametersMigrationTask",
     "breaks" : "6.1.0",
     "version" : "6.4.0",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.FixUpgradePasswordEncryptionAlg4ItemMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.FixWrongDbTypesMigrationTask",
     "breaks" : "5.1.9",
     "version" : "5.1.2",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.GenerateJobPomMigrationTask",
+    "breaks" : "7.0.1",
+    "version" : "7.0.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.GoogleStorageSetDefaultAuthTypeMigrationTask",
     "breaks" : "7.3.0",
@@ -1681,6 +1726,11 @@
     "breaks" : "5.1.1",
     "version" : "5.1.2",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.RemoveDefaultProxyIPTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.RemoveDuplicatedContextGroupMigrationTask",
     "breaks" : "6.0.1",
@@ -1897,6 +1947,11 @@
     "version" : "5.1.2",
     "status" : "noimpact"
   }, {
+    "id" : "org.talend.repository.model.migration.ReplaceInheritCredentialCheckBoxWithDropDownListTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
+  }, {
     "id" : "org.talend.repository.model.migration.ReplaceMultiFlowBytReplicateMigrationTask",
     "breaks" : "5.1.1",
     "version" : "5.1.2",
@@ -2070,6 +2125,11 @@
     "breaks" : "7.3.0",
     "version" : "7.3.1",
     "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.SpecialUpdateELTEnableColumnAliasMigrationTask",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
+    "status" : "ok"
   }, {
     "id" : "org.talend.repository.model.migration.SubstituteRemovedMDMOperatorMigrationTask",
     "breaks" : "6.1.0",
@@ -2327,6 +2387,11 @@
     "id" : "org.talend.repository.model.migration.spark.SetGlobalTimestampOptionForPreviousVersions",
     "breaks" : "7.2.0",
     "version" : "7.2.1",
+    "status" : "noimpact"
+  }, {
+    "id" : "org.talend.repository.model.migration.spark.SetUseLocalTimezone",
+    "breaks" : "7.3.0",
+    "version" : "7.3.1",
     "status" : "noimpact"
   }, {
     "id" : "org.talend.repository.model.migration.spark.StripslachesOnQuotesForTCollectAndCheck",
