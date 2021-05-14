@@ -1,0 +1,43 @@
+{
+  "itemId" : "_RGqU8CnCEeiMAK9BgUPEyA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5Yh2AC9DEeiQW9xOg0xqsg",
+    "parameterList" : [ {
+      "id" : "_NWfDkhcbEeqW9upk1B-cKQ",
+      "name" : "amq_host"
+    }, {
+      "id" : "_NWfDkxcbEeqW9upk1B-cKQ",
+      "name" : "amq_port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  } ]
+}

@@ -11,6 +11,13 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/joblets/BDI_MAIN/BDI2000_JOBLETS/mjoblet2001_load_context_0.1</module>
+    <module>jobs/joblets/exception_handling_0.1</module>
+    <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_1_sqoop_ingestion_1.0</module>
+    <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_2_sqoop_ingestion_0.1</module>
+    <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_3_sqoop_ingestion_0.1</module>
+    <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/mjob400_source_ingestion1_0.1</module>
+    <module>jobs/process/DIF_MAIN/TARGET_INGESTION_500/mjob503_update_status_0.1</module>
     <module>jobs/process/jobpasswordparameters_0.1</module>
     <module>jobs/process/webhook_sleep_0.1</module>
   </modules>

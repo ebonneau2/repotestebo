@@ -1,0 +1,77 @@
+{
+  "itemId" : "_2fCfQC5lEeid9cQE71VflQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5Yh2AC9DEeiQW9xOg0xqsg",
+    "parameterList" : [ {
+      "id" : "_NWfDkhcbEeqW9upk1B-cKQ",
+      "name" : "amq_host"
+    }, {
+      "id" : "_NWfDkxcbEeqW9upk1B-cKQ",
+      "name" : "amq_port"
+    }, {
+      "id" : "_NWfDlBcbEeqW9upk1B-cKQ",
+      "name" : "queue_SourceRequest"
+    }, {
+      "id" : "_NWfDlRcbEeqW9upk1B-cKQ",
+      "name" : "queue_TargetRequest"
+    }, {
+      "id" : "_NWfDlhcbEeqW9upk1B-cKQ",
+      "name" : "queue_verifyCount"
+    }, {
+      "id" : "_NWfDnBcbEeqW9upk1B-cKQ",
+      "name" : "topic_IngestionList"
+    }, {
+      "id" : "_NWfDnRcbEeqW9upk1B-cKQ",
+      "name" : "topic_tableStatus"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ahi0cBh-EeiHxvQlK0lDpw",
+    "parameterList" : [ {
+      "id" : "_NlGHUxcbEeqW9upk1B-cKQ",
+      "name" : "mysql_database"
+    }, {
+      "id" : "_NlGHVRcbEeqW9upk1B-cKQ",
+      "name" : "mysql_hostname"
+    }, {
+      "id" : "_NlGHUhcbEeqW9upk1B-cKQ",
+      "name" : "mysql_password"
+    }, {
+      "id" : "_NlGHVBcbEeqW9upk1B-cKQ",
+      "name" : "mysql_port"
+    }, {
+      "id" : "_NlGHURcbEeqW9upk1B-cKQ",
+      "name" : "mysql_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  } ]
+}

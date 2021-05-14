@@ -1,0 +1,159 @@
+{
+  "itemId" : "__PS48DMQEeiqQpdbVV31-Q",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_5Yh2AC9DEeiQW9xOg0xqsg",
+    "parameterList" : [ {
+      "id" : "_NWfDkhcbEeqW9upk1B-cKQ",
+      "name" : "amq_host"
+    }, {
+      "id" : "_NWfDkxcbEeqW9upk1B-cKQ",
+      "name" : "amq_port"
+    }, {
+      "id" : "_NWfDmRcbEeqW9upk1B-cKQ",
+      "name" : "ingestionList"
+    }, {
+      "id" : "_NWfDlBcbEeqW9upk1B-cKQ",
+      "name" : "queue_SourceRequest"
+    }, {
+      "id" : "_NWfDlRcbEeqW9upk1B-cKQ",
+      "name" : "queue_TargetRequest"
+    }, {
+      "id" : "_NWfDlhcbEeqW9upk1B-cKQ",
+      "name" : "queue_verifyCount"
+    }, {
+      "id" : "_NWfDlxcbEeqW9upk1B-cKQ",
+      "name" : "sourceRequest"
+    }, {
+      "id" : "_NWfDmhcbEeqW9upk1B-cKQ",
+      "name" : "tableStatus"
+    }, {
+      "id" : "_NWfDmBcbEeqW9upk1B-cKQ",
+      "name" : "targetRequest"
+    }, {
+      "id" : "_NWfDnBcbEeqW9upk1B-cKQ",
+      "name" : "topic_IngestionList"
+    }, {
+      "id" : "_NWfDnRcbEeqW9upk1B-cKQ",
+      "name" : "topic_tableStatus"
+    }, {
+      "id" : "_NWfDmxcbEeqW9upk1B-cKQ",
+      "name" : "verifyCount"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_-5WT8Bh-EeiHxvQlK0lDpw",
+    "parameterList" : [ {
+      "id" : "_NhEi8xcbEeqW9upk1B-cKQ",
+      "name" : "hive_database"
+    }, {
+      "id" : "_NhEi8RcbEeqW9upk1B-cKQ",
+      "name" : "hive_host"
+    }, {
+      "id" : "_NhEi-BcbEeqW9upk1B-cKQ",
+      "name" : "hive_kerberos_keytab"
+    }, {
+      "id" : "_NhEi9xcbEeqW9upk1B-cKQ",
+      "name" : "hive_kerberos_principal"
+    }, {
+      "id" : "_NhEi9RcbEeqW9upk1B-cKQ",
+      "name" : "hive_namenode_principal"
+    }, {
+      "id" : "_NhEi8hcbEeqW9upk1B-cKQ",
+      "name" : "hive_port"
+    }, {
+      "id" : "_NhEi9BcbEeqW9upk1B-cKQ",
+      "name" : "hive_principal"
+    }, {
+      "id" : "_NhEi9hcbEeqW9upk1B-cKQ",
+      "name" : "hive_resource_manager_princiapl"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_HBuT0BiAEeiHxvQlK0lDpw",
+    "parameterList" : [ {
+      "id" : "_q50FkCCSEeqMUsZ6B0p14A",
+      "name" : "impala_additional_jdbc_parameter"
+    }, {
+      "id" : "_NjwDhBcbEeqW9upk1B-cKQ",
+      "name" : "impala_database"
+    }, {
+      "id" : "_NjwDgRcbEeqW9upk1B-cKQ",
+      "name" : "impala_host"
+    }, {
+      "id" : "_mRhUkR-9EeqveqkWPpmufA",
+      "name" : "impala_kerberos_principal"
+    }, {
+      "id" : "_mRhUkB-9EeqveqkWPpmufA",
+      "name" : "impala_keytab"
+    }, {
+      "id" : "_NjwDghcbEeqW9upk1B-cKQ",
+      "name" : "impala_port"
+    }, {
+      "id" : "_NjwDhRcbEeqW9upk1B-cKQ",
+      "name" : "impala_principal"
+    }, {
+      "id" : "_D_y7UR--EeqveqkWPpmufA",
+      "name" : "impala_trust_store_password"
+    }, {
+      "id" : "_D_y7UB--EeqveqkWPpmufA",
+      "name" : "impala_trust_store_path"
+    }, {
+      "id" : "_NjwDgxcbEeqW9upk1B-cKQ",
+      "name" : "impala_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ahi0cBh-EeiHxvQlK0lDpw",
+    "parameterList" : [ {
+      "id" : "_NlGHUxcbEeqW9upk1B-cKQ",
+      "name" : "mysql_database"
+    }, {
+      "id" : "_NlGHVRcbEeqW9upk1B-cKQ",
+      "name" : "mysql_hostname"
+    }, {
+      "id" : "_NlGHUhcbEeqW9upk1B-cKQ",
+      "name" : "mysql_password"
+    }, {
+      "id" : "_NlGHVBcbEeqW9upk1B-cKQ",
+      "name" : "mysql_port"
+    }, {
+      "id" : "_NlGHURcbEeqW9upk1B-cKQ",
+      "name" : "mysql_username"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KkQMwB-OEeiHTrKXo2p5EA",
+    "parameterList" : [ {
+      "id" : "_NpQ1ohcbEeqW9upk1B-cKQ",
+      "name" : "end_status"
+    }, {
+      "id" : "_NpQ1pRcbEeqW9upk1B-cKQ",
+      "name" : "hive_fail"
+    }, {
+      "id" : "_NpQ1pxcbEeqW9upk1B-cKQ",
+      "name" : "hive_success"
+    }, {
+      "id" : "_NpQ1phcbEeqW9upk1B-cKQ",
+      "name" : "impala_fail"
+    }, {
+      "id" : "_NpQ1qhcbEeqW9upk1B-cKQ",
+      "name" : "impala_refresh_fail"
+    }, {
+      "id" : "_NpQ1qRcbEeqW9upk1B-cKQ",
+      "name" : "skipped_status"
+    }, {
+      "id" : "_NpQ1qBcbEeqW9upk1B-cKQ",
+      "name" : "sqoop_success"
+    }, {
+      "id" : "_NpQ1oRcbEeqW9upk1B-cKQ",
+      "name" : "start_status"
+    }, {
+      "id" : "_NpQ1pBcbEeqW9upk1B-cKQ",
+      "name" : "transfer_fail"
+    }, {
+      "id" : "_NpQ1oxcbEeqW9upk1B-cKQ",
+      "name" : "transfer_success"
+    } ]
+  } ]
+}

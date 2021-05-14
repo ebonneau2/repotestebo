@@ -1,0 +1,339 @@
+{
+  "itemId" : "_1evYwK8uEei_jPRYhaPvaw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_onh74FfxEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NcmSpRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_properties"
+    }, {
+      "id" : "_NcmSohcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_properties"
+    }, {
+      "id" : "_NcmSoxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_properties"
+    }, {
+      "id" : "_NcmSpBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_properties"
+    }, {
+      "id" : "_NcmSoRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_properties"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KkGp4FgEEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NeFgZRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_value"
+    }, {
+      "id" : "_NeFgYhcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_value"
+    }, {
+      "id" : "_NeFgYxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_value"
+    }, {
+      "id" : "_NeFgZBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_value"
+    }, {
+      "id" : "_NeFgYRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_value"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_onh74FfxEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NcmSpRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_properties"
+    }, {
+      "id" : "_NcmSohcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_properties"
+    }, {
+      "id" : "_NcmSoxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_properties"
+    }, {
+      "id" : "_NcmSpBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_properties"
+    }, {
+      "id" : "_NcmSoRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_properties"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_KkGp4FgEEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NeFgZRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_value"
+    }, {
+      "id" : "_NeFgYhcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_value"
+    }, {
+      "id" : "_NeFgYxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_value"
+    }, {
+      "id" : "_NeFgZBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_value"
+    }, {
+      "id" : "_NeFgYRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_value"
+    } ]
+  }, {
+    "contextName" : "DRC",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "DRC",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  }, {
+    "contextName" : "DRC",
+    "repoId" : "_onh74FfxEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NcmSpRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_properties"
+    }, {
+      "id" : "_NcmSohcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_properties"
+    }, {
+      "id" : "_NcmSoxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_properties"
+    }, {
+      "id" : "_NcmSpBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_properties"
+    }, {
+      "id" : "_NcmSoRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_properties"
+    } ]
+  }, {
+    "contextName" : "DRC",
+    "repoId" : "_KkGp4FgEEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NeFgZRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_value"
+    }, {
+      "id" : "_NeFgYhcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_value"
+    }, {
+      "id" : "_NeFgYxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_value"
+    }, {
+      "id" : "_NeFgZBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_value"
+    }, {
+      "id" : "_NeFgYRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_value"
+    } ]
+  }, {
+    "contextName" : "RegTest",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "RegTest",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  }, {
+    "contextName" : "RegTest",
+    "repoId" : "_onh74FfxEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NcmSpRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_properties"
+    }, {
+      "id" : "_NcmSohcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_properties"
+    }, {
+      "id" : "_NcmSoxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_properties"
+    }, {
+      "id" : "_NcmSpBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_properties"
+    }, {
+      "id" : "_NcmSoRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_properties"
+    } ]
+  }, {
+    "contextName" : "RegTest",
+    "repoId" : "_KkGp4FgEEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NeFgZRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_value"
+    }, {
+      "id" : "_NeFgYhcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_value"
+    }, {
+      "id" : "_NeFgYxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_value"
+    }, {
+      "id" : "_NeFgZBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_value"
+    }, {
+      "id" : "_NeFgYRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_value"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "__h5ZwB9lEeiAWLqhxNJFrw",
+    "parameterList" : [ {
+      "id" : "_NYIpYxcbEeqW9upk1B-cKQ",
+      "name" : "error_log_dir"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_JLM9kH2xEeimoY_U_lWWXA",
+    "parameterList" : [ {
+      "id" : "_NZnQExcbEeqW9upk1B-cKQ",
+      "name" : "Email_To"
+    }, {
+      "id" : "_NZnQFxcbEeqW9upk1B-cKQ",
+      "name" : "EmailFrom"
+    }, {
+      "id" : "_NZnQERcbEeqW9upk1B-cKQ",
+      "name" : "Host"
+    }, {
+      "id" : "_NZnQFRcbEeqW9upk1B-cKQ",
+      "name" : "Password"
+    }, {
+      "id" : "_NZnQEhcbEeqW9upk1B-cKQ",
+      "name" : "Port"
+    }, {
+      "id" : "_NZnQFBcbEeqW9upk1B-cKQ",
+      "name" : "UserName"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_onh74FfxEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NcmSqxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_properties"
+    }, {
+      "id" : "_NcmSqBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_properties"
+    }, {
+      "id" : "_NcmSqRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_properties"
+    }, {
+      "id" : "_NcmSqhcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_properties"
+    }, {
+      "id" : "_NcmSpxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_properties"
+    } ]
+  }, {
+    "contextName" : "PRD",
+    "repoId" : "_KkGp4FgEEei8XO-UDE8uxQ",
+    "parameterList" : [ {
+      "id" : "_NeFgaxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_client_failover_proxy_value"
+    }, {
+      "id" : "_NeFgaBcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode1_value"
+    }, {
+      "id" : "_NeFgaRcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenode2_value"
+    }, {
+      "id" : "_NeFgahcbEeqW9upk1B-cKQ",
+      "name" : "dfs_namenodes_nameservice_value"
+    }, {
+      "id" : "_NeFgZxcbEeqW9upk1B-cKQ",
+      "name" : "dfs_nameservices_value"
+    } ]
+  } ]
+}
