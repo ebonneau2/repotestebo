@@ -1,482 +1,483 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
   <context confirmationNeeded="false" name="Default">
-    <contextParameter comment="" internalId="_Bvvk4LSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="true" type="id_String" value="DEV"/>
-    <contextParameter comment="" internalId="_Bvvk4bSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" type="id_String" value="/home/db.csv"/>
-    <contextParameter comment="" internalId="_Bvvk4rSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk47SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk5LSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_Bvvk5bSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk5rSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_Bvvk57SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk6LSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk6bSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk6rSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk67SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk7LSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk7bSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk7rSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk77SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk8LSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk8bSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk8rSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk87SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk9LSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk9bSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk9rSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk97SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk-LSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk-bSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk-rSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk-7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk_LSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk_bSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk_rSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_Bvvk_7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlALSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlAbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlArSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlA7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvvlBLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlBbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlBrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlB7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlCLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlCbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlCrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvvlC7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlDLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlDbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlDrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvvlD7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL8LSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL8bSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL8rSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL87SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL9LSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL9bSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL9rSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL97SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL-LSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL-bSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL-rSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL-7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL_LSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL_bSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL_rSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwL_7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMALSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMAbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMArSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMA7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMBLSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMBbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMBrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMB7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMCLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMCbSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMCrSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMC7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
-    <contextParameter comment="" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk4LSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="DEV"/>
+    <contextParameter comment="" internalId="_Bvvk4bSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="/home/db.csv"/>
+    <contextParameter comment="" internalId="_Bvvk4rSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk47SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk5LSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_Bvvk5bSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk5rSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_Bvvk57SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk6LSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk6bSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk6rSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk67SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk7LSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk7bSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk7rSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk77SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk8LSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk8bSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk8rSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk87SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk9LSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk9bSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk9rSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk97SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk-LSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk-bSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk-rSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk-7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk_LSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk_bSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk_rSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_Bvvk_7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlALSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlAbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlArSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlA7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvvlBLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlBbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlBrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlB7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlCLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlCbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlCrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvvlC7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlDLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlDbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlDrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvvlD7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL8LSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL8bSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL8rSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL87SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL9LSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL9bSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL9rSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL97SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL-LSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL-bSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL-rSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL-7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL_LSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL_bSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL_rSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwL_7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMALSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMAbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMArSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMA7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMBLSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMBbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMBrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMB7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMCLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMCbSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMCrSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMC7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMuoILSwEeuNStuTgDdzRg" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPMLSwEeuNStuTgDdzRg" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPMbSwEeuNStuTgDdzRg" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPMrSwEeuNStuTgDdzRg" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPM7SwEeuNStuTgDdzRg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPNLSwEeuNStuTgDdzRg" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMvPNbSwEeuNStuTgDdzRg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMv2QLSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMv2QbSwEeuNStuTgDdzRg" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMv2QrSwEeuNStuTgDdzRg" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMv2Q7SwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMv2RLSwEeuNStuTgDdzRg" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEYLSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEYbSwEeuNStuTgDdzRg" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEYrSwEeuNStuTgDdzRg" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEY7SwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEZLSwEeuNStuTgDdzRg" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="Dev">
-    <contextParameter comment="" internalId="_BvwMDLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" type="id_String" value="at"/>
-    <contextParameter comment="" internalId="_BvwMDbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMDrSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMD7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMELSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwMEbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMErSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwME7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMFLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMFbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMFrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMF7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMGLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMGbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMGrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMG7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMHLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMHbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMHrSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMH7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMILSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMIbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMIrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMI7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMJLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMJbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMJrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMJ7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMKLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMKbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMKrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMK7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMLLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMLbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMLrSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwML7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMMLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMMbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMMrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMM7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMNLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMNbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMNrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMN7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMOLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMObSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMOrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMO7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMPLSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMPbSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMPrSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMP7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMQLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMQbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMQrSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMQ7SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMRLSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMRbSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMRrSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMR7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMSLSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMSbSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMSrSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMS7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMTLSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMTbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMTrSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMT7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMULSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMUbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMUrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMU7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMVLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMVbSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMVrSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMV7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
-    <contextParameter comment="" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMDLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="at"/>
+    <contextParameter comment="" internalId="_BvwMDbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMDrSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMD7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMELSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwMEbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMErSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwME7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMFLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMFbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMFrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMF7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMGLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMGbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMGrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMG7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMHLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMHbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMHrSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMH7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMILSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMIbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMIrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMI7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMJLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMJbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMJrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMJ7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMKLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMKbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMKrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMK7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMLLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMLbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMLrSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwML7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMMLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMMbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMMrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMM7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMNLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMNbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMNrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMN7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMOLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMObSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMOrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMO7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMPLSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMPbSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMPrSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMP7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMQLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMQbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMQrSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMQ7SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMRLSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMRbSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMRrSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMR7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMSLSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMSbSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMSrSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMS7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMTLSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMTbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMTrSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMT7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMULSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMUbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMUrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMU7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMVLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMVbSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMVrSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMV7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEZbSwEeuNStuTgDdzRg" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEZrSwEeuNStuTgDdzRg" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEZ7SwEeuNStuTgDdzRg" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEaLSwEeuNStuTgDdzRg" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEabSwEeuNStuTgDdzRg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEarSwEeuNStuTgDdzRg" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEa7SwEeuNStuTgDdzRg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEbLSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEbbSwEeuNStuTgDdzRg" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEbrSwEeuNStuTgDdzRg" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEb7SwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEcLSwEeuNStuTgDdzRg" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEcbSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEcrSwEeuNStuTgDdzRg" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEc7SwEeuNStuTgDdzRg" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEdLSwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxEdbSwEeuNStuTgDdzRg" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="DRC">
-    <contextParameter comment="" internalId="_BvwMWLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" type="id_String" value="dev"/>
-    <contextParameter comment="" internalId="_BvwMWbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMWrSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMW7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMXLSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwMXbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMXrSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwMX7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMYLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMYbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMYrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMY7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMZLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMZbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMZrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMZ7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMaLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMabSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMarSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMa7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMbLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMbbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMbrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMb7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMcLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMcbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMcrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMc7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMdLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMdbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMdrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMd7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMeLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMebSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMerSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMe7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMfLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMfbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMfrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMf7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMgLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMgbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMgrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMg7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMhLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMhbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMhrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMh7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMiLSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMibSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMirSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMi7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMjLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMjbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMjrSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMj7SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMkLSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMkbSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMkrSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMk7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMlLSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMlbSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMlrSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMl7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMmLSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMmbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMmrSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMm7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMnLSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMnbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMnrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMn7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMoLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMobSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMorSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMo7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
-    <contextParameter comment="" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMWLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter comment="" internalId="_BvwMWbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMWrSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMW7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMXLSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwMXbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMXrSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwMX7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMYLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMYbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMYrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMY7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMZLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMZbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMZrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMZ7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMaLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMabSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMarSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMa7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMbLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMbbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMbrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMb7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMcLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMcbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMcrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMc7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMdLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMdbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMdrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMd7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMeLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMebSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMerSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMe7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMfLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMfbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMfrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMf7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMgLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMgbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMgrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMg7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMhLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMhbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMhrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMh7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMiLSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMibSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMirSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMi7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMjLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMjbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMjrSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMj7SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMkLSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMkbSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMkrSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMk7SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMlLSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMlbSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMlrSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMl7SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMmLSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMmbSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMmrSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMm7SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMnLSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMnbSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMnrSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMn7SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMoLSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMobSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMorSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMo7SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrcLSwEeuNStuTgDdzRg" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrcbSwEeuNStuTgDdzRg" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrcrSwEeuNStuTgDdzRg" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrc7SwEeuNStuTgDdzRg" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrdLSwEeuNStuTgDdzRg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrdbSwEeuNStuTgDdzRg" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrdrSwEeuNStuTgDdzRg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrd7SwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxreLSwEeuNStuTgDdzRg" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrebSwEeuNStuTgDdzRg" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrerSwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxre7SwEeuNStuTgDdzRg" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrfLSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrfbSwEeuNStuTgDdzRg" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrfrSwEeuNStuTgDdzRg" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrf7SwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrgLSwEeuNStuTgDdzRg" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="RegTest">
-    <contextParameter comment="" internalId="_BvwMpLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" type="id_String" value="RegTest"/>
-    <contextParameter comment="" internalId="_BvwMpbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" type="id_String" value="/home/admin/regtest/db.csv"/>
-    <contextParameter comment="" internalId="_BvwMprSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMp7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMqLSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwMqbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMqrSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwMq7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMrLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMrbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMrrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMr7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMsLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMsbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMsrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMs7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMtLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMtbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMtrSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMt7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMuLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMubSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMurSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMu7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMvLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMvbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMvrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMv7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMwLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMwbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMwrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMw7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMxLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMxbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMxrSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMx7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMyLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMybSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMyrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMy7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMzLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMzbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwMzrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwMz7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM0LSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM0bSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM0rSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM07SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM1LSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM1bSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM1rSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM17SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM2LSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM2bSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM2rSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM27SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM3LSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM3bSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM3rSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM37SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM4LSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM4bSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM4rSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM47SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM5LSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM5bSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM5rSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM57SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM6LSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM6bSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM6rSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM67SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM7LSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM7bSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM7rSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM77SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
-    <contextParameter comment="" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMpLSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="RegTest"/>
+    <contextParameter comment="" internalId="_BvwMpbSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="true" repositoryContextId="built-in" type="id_String" value="/home/admin/regtest/db.csv"/>
+    <contextParameter comment="" internalId="_BvwMprSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMp7SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMqLSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwMqbSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMqrSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwMq7SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMrLSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMrbSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMrrSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMr7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMsLSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMsbSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMsrSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMs7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMtLSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMtbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMtrSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMt7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMuLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMubSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMurSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMu7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMvLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMvbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMvrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMv7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMwLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMwbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMwrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMw7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMxLSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMxbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMxrSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMx7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMyLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMybSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMyrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMy7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMzLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMzbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwMzrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwMz7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM0LSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM0bSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM0rSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM07SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM1LSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM1bSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM1rSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM17SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM2LSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM2bSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM2rSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM27SvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM3LSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM3bSvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM3rSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM37SvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM4LSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM4bSvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM4rSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM47SvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM5LSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM5bSvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM5rSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM57SvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM6LSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM6bSvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM6rSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM67SvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM7LSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM7bSvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM7rSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM77SvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrgbSwEeuNStuTgDdzRg" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrgrSwEeuNStuTgDdzRg" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrg7SwEeuNStuTgDdzRg" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrhLSwEeuNStuTgDdzRg" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrhbSwEeuNStuTgDdzRg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrhrSwEeuNStuTgDdzRg" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrh7SwEeuNStuTgDdzRg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxriLSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxribSwEeuNStuTgDdzRg" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrirSwEeuNStuTgDdzRg" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxri7SwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrjLSwEeuNStuTgDdzRg" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrjbSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="true" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrjrSwEeuNStuTgDdzRg" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrj7SwEeuNStuTgDdzRg" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrkLSwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrkbSwEeuNStuTgDdzRg" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value=""/>
   </context>
   <context confirmationNeeded="false" name="PRD">
-    <contextParameter comment="" internalId="_BvwM8LSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" type="id_String" value="dev"/>
-    <contextParameter comment="" internalId="_BvwM8bSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="false" type="id_String" value="/home/admin/dev/db.csv"/>
-    <contextParameter comment="" internalId="_BvwM8rSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM87SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM9LSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" type="id_Integer" value=""/>
-    <contextParameter comment="" internalId="_BvwM9bSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM9rSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" type="id_Integer" value="1"/>
-    <contextParameter comment="" internalId="_BvwM97SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM-LSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM-bSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM-rSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM-7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM_LSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM_bSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM_rSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwM_7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNALSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNAbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNArSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNA7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNBLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNBbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNBrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNB7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNCLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNCbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNCrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNC7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNDLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNDbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNDrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwND7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNELSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNEbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNErSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNE7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwNFLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNFbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNFrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNF7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNGLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNGbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNGrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" type="id_Password" value=""/>
-    <contextParameter comment="" internalId="_BvwNG7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNHLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNHbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNHrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNH7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNILSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNIbSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNIrSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNI7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNJLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwNJbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzALSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzAbSvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzArSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzA7SvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzBLSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzBbSvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzBrSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzB7SvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzCLSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzCbSvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzCrSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzC7SvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzDLSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzDbSvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzDrSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzD7SvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzELSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzEbSvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzErSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzE7SvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzFLSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" internalId="_BvwzFbSvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" type="id_String" value=""/>
-    <contextParameter comment="" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
-    <contextParameter comment="" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.client.failover.proxy.provider.nameprod"/>
-    <contextParameter comment="" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.namenode.rpc-address.nameprod.namenode218"/>
-    <contextParameter comment="" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.namenode.rpc-address.nameprod.namenode236"/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.ha.namenodes.nameprod"/>
-    <contextParameter comment="" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.nameservices"/>
-    <contextParameter comment="" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"/>
-    <contextParameter comment="" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="bsd-prd-edl01:8020"/>
-    <contextParameter comment="" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="bsd-prd-edl02:8020"/>
-    <contextParameter comment="" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="namenode218,namenode236"/>
-    <contextParameter comment="" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="nameprod"/>
+    <contextParameter comment="" internalId="_BvwM8LSvEeuNStuTgDdzRg" name="environment" prompt="environment?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev"/>
+    <contextParameter comment="" internalId="_BvwM8bSvEeuNStuTgDdzRg" name="Database_File" prompt="Database_File?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/home/admin/dev/db.csv"/>
+    <contextParameter comment="" internalId="_BvwM8rSvEeuNStuTgDdzRg" name="Table_Name" prompt="Table_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM87SvEeuNStuTgDdzRg" name="Schema_Name" prompt="Schema_Name?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM9LSvEeuNStuTgDdzRg" name="table_id" prompt="table_id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_BvwM9bSvEeuNStuTgDdzRg" name="Run_Id" prompt="Run_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM9rSvEeuNStuTgDdzRg" name="Layer_Id" prompt="Layer_Id?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1"/>
+    <contextParameter comment="" internalId="_BvwM97SvEeuNStuTgDdzRg" name="master_process_id" prompt="master_process_id?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM-LSvEeuNStuTgDdzRg" name="amq_host" prompt="amq_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM-bSvEeuNStuTgDdzRg" name="amq_port" prompt="amq_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM-rSvEeuNStuTgDdzRg" name="ingestionList" prompt="ingestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM-7SvEeuNStuTgDdzRg" name="queue_SourceRequest" prompt="queue_SourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM_LSvEeuNStuTgDdzRg" name="queue_TargetRequest" prompt="queue_TargetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM_bSvEeuNStuTgDdzRg" name="queue_verifyCount" prompt="queue_verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM_rSvEeuNStuTgDdzRg" name="sourceRequest" prompt="sourceRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwM_7SvEeuNStuTgDdzRg" name="tableStatus" prompt="tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNALSvEeuNStuTgDdzRg" name="targetRequest" prompt="targetRequest?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNAbSvEeuNStuTgDdzRg" name="topic_IngestionList" prompt="topic_IngestionList?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNArSvEeuNStuTgDdzRg" name="topic_tableStatus" prompt="topic_tableStatus?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNA7SvEeuNStuTgDdzRg" name="verifyCount" prompt="verifyCount?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNBLSvEeuNStuTgDdzRg" name="hive_database" prompt="hive_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNBbSvEeuNStuTgDdzRg" name="hive_host" prompt="hive_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNBrSvEeuNStuTgDdzRg" name="hive_kerberos_keytab" prompt="hive_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNB7SvEeuNStuTgDdzRg" name="hive_kerberos_principal" prompt="hive_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNCLSvEeuNStuTgDdzRg" name="hive_namenode_principal" prompt="hive_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNCbSvEeuNStuTgDdzRg" name="hive_port" prompt="hive_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNCrSvEeuNStuTgDdzRg" name="hive_principal" prompt="hive_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNC7SvEeuNStuTgDdzRg" name="hive_resource_manager_princiapl" prompt="hive_resource_manager_princiapl?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNDLSvEeuNStuTgDdzRg" name="impala_database" prompt="impala_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNDbSvEeuNStuTgDdzRg" name="impala_host" prompt="impala_host?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNDrSvEeuNStuTgDdzRg" name="impala_port" prompt="impala_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwND7SvEeuNStuTgDdzRg" name="impala_principal" prompt="impala_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNELSvEeuNStuTgDdzRg" name="impala_username" prompt="impala_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNEbSvEeuNStuTgDdzRg" name="mysql_database" prompt="mysql_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNErSvEeuNStuTgDdzRg" name="mysql_hostname" prompt="mysql_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNE7SvEeuNStuTgDdzRg" name="mysql_password" prompt="mysql_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwNFLSvEeuNStuTgDdzRg" name="mysql_port" prompt="mysql_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNFbSvEeuNStuTgDdzRg" name="mysql_username" prompt="mysql_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNFrSvEeuNStuTgDdzRg" name="source_classname" prompt="source_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNF7SvEeuNStuTgDdzRg" name="source_database" prompt="source_database?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNGLSvEeuNStuTgDdzRg" name="source_hostname" prompt="source_hostname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNGbSvEeuNStuTgDdzRg" name="source_jdbc" prompt="source_jdbc?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNGrSvEeuNStuTgDdzRg" name="source_password" prompt="source_password?" promptNeeded="false" repositoryContextId="built-in" type="id_Password" value=""/>
+    <contextParameter comment="" internalId="_BvwNG7SvEeuNStuTgDdzRg" name="source_port" prompt="source_port?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNHLSvEeuNStuTgDdzRg" name="source_schema" prompt="source_schema?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNHbSvEeuNStuTgDdzRg" name="source_server" prompt="source_server?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNHrSvEeuNStuTgDdzRg" name="source_sid" prompt="source_sid?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNH7SvEeuNStuTgDdzRg" name="source_type" prompt="source_type?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNILSvEeuNStuTgDdzRg" name="source_username" prompt="source_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNIbSvEeuNStuTgDdzRg" name="sqoop_classname" prompt="sqoop_classname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNIrSvEeuNStuTgDdzRg" name="sqoop_job_history_address" prompt="sqoop_job_history_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNI7SvEeuNStuTgDdzRg" name="sqoop_job_history_principal" prompt="sqoop_job_history_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNJLSvEeuNStuTgDdzRg" name="sqoop_kerberos_keytab" prompt="sqoop_kerberos_keytab?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwNJbSvEeuNStuTgDdzRg" name="sqoop_kerberos_principal" prompt="sqoop_kerberos_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzALSvEeuNStuTgDdzRg" name="sqoop_namenode_principal" prompt="sqoop_namenode_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzAbSvEeuNStuTgDdzRg" name="sqoop_namenode_uri" prompt="sqoop_namenode_uri?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzArSvEeuNStuTgDdzRg" name="sqoop_password" prompt="sqoop_password?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzA7SvEeuNStuTgDdzRg" name="sqoop_resource_manager" prompt="sqoop_resource_manager?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzBLSvEeuNStuTgDdzRg" name="sqoop_resource_manager_principal" prompt="sqoop_resource_manager_principal?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzBbSvEeuNStuTgDdzRg" name="sqoop_resource_manager_scheduler_address" prompt="sqoop_resource_manager_scheduler_address?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzBrSvEeuNStuTgDdzRg" name="sqoop_splitby" prompt="sqoop_splitby?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzB7SvEeuNStuTgDdzRg" name="sqoop_staging_directory" prompt="sqoop_staging_directory?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzCLSvEeuNStuTgDdzRg" name="sqoop_tablename" prompt="sqoop_tablename?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzCbSvEeuNStuTgDdzRg" name="sqoop_targetdir" prompt="sqoop_targetdir?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzCrSvEeuNStuTgDdzRg" name="sqoop_username" prompt="sqoop_username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzC7SvEeuNStuTgDdzRg" name="end_status" prompt="end_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzDLSvEeuNStuTgDdzRg" name="hive_fail" prompt="hive_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzDbSvEeuNStuTgDdzRg" name="hive_success" prompt="hive_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzDrSvEeuNStuTgDdzRg" name="impala_fail" prompt="impala_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzD7SvEeuNStuTgDdzRg" name="impala_refresh_fail" prompt="impala_refresh_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzELSvEeuNStuTgDdzRg" name="skipped_status" prompt="skipped_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzEbSvEeuNStuTgDdzRg" name="sqoop_success" prompt="sqoop_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzErSvEeuNStuTgDdzRg" name="start_status" prompt="start_status?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzE7SvEeuNStuTgDdzRg" name="transfer_fail" prompt="transfer_fail?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzFLSvEeuNStuTgDdzRg" name="transfer_success" prompt="transfer_success?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_BvwzFbSvEeuNStuTgDdzRg" name="source_jarname" prompt="source_jarname?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrkrSwEeuNStuTgDdzRg" name="error_log_dir" prompt="error_log_dir?" promptNeeded="false" repositoryContextId="__h5ZwB9lEeiAWLqhxNJFrw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrk7SwEeuNStuTgDdzRg" name="Email_To" prompt="Email_To?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrlLSwEeuNStuTgDdzRg" name="EmailFrom" prompt="EmailFrom?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrlbSwEeuNStuTgDdzRg" name="Host" prompt="Host?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrlrSwEeuNStuTgDdzRg" name="Password" prompt="Password?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrl7SwEeuNStuTgDdzRg" name="Port" prompt="Port?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrmLSwEeuNStuTgDdzRg" name="UserName" prompt="UserName?" promptNeeded="false" repositoryContextId="_JLM9kH2xEeimoY_U_lWWXA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_UMxrmbSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_properties" prompt="dfs_client_failover_proxy_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.client.failover.proxy.provider.nameprod"/>
+    <contextParameter comment="" internalId="_UMxrmrSwEeuNStuTgDdzRg" name="dfs_namenode1_properties" prompt="dfs_namenode1_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.namenode.rpc-address.nameprod.namenode218"/>
+    <contextParameter comment="" internalId="_UMxrm7SwEeuNStuTgDdzRg" name="dfs_namenode2_properties" prompt="dfs_namenode2_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.namenode.rpc-address.nameprod.namenode236"/>
+    <contextParameter comment="" internalId="_UMxrnLSwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_properties" prompt="dfs_namenodes_nameservice_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.ha.namenodes.nameprod"/>
+    <contextParameter comment="" internalId="_UMxrnbSwEeuNStuTgDdzRg" name="dfs_nameservices_properties" prompt="dfs_nameservices_properties?" promptNeeded="false" repositoryContextId="_onh74FfxEei8XO-UDE8uxQ" type="id_String" value="dfs.nameservices"/>
+    <contextParameter comment="" internalId="_UMxrnrSwEeuNStuTgDdzRg" name="dfs_client_failover_proxy_value" prompt="dfs_client_failover_proxy_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="org.apache.hadoop.hdfs.server.namenode.ha.ConfiguredFailoverProxyProvider"/>
+    <contextParameter comment="" internalId="_UMxrn7SwEeuNStuTgDdzRg" name="dfs_namenode1_value" prompt="dfs_namenode1_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="bsd-prd-edl01:8020"/>
+    <contextParameter comment="" internalId="_UMxroLSwEeuNStuTgDdzRg" name="dfs_namenode2_value" prompt="dfs_namenode2_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="bsd-prd-edl02:8020"/>
+    <contextParameter comment="" internalId="_UMxrobSwEeuNStuTgDdzRg" name="dfs_namenodes_nameservice_value" prompt="dfs_namenodes_nameservice_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="namenode218,namenode236"/>
+    <contextParameter comment="" internalId="_UMxrorSwEeuNStuTgDdzRg" name="dfs_nameservices_value" prompt="dfs_nameservices_value?" promptNeeded="false" repositoryContextId="_KkGp4FgEEei8XO-UDE8uxQ" type="id_String" value="nameprod"/>
   </context>
   <parameters>
     <elementParameter field="CHECK" name="LOG4J_RUN_ACTIVATE" show="false" value="true"/>
     <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="JOB_RUN_VM_ARGUMENTS" show="false" value="{&quot;JOB_RUN_VM_ARGUMENTS&quot;:[&quot;-Xms256M&quot;,&quot;-Xmx1024M&quot;]}"/>
     <elementParameter field="CHECK" name="JOB_RUN_VM_ARGUMENTS_OPTION" show="false" value="true"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="160"/>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="128"/>
@@ -504,6 +505,9 @@
     <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
     <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
     <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -516,7 +520,7 @@
     <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:nxVMf3nr9gT3CDkg9M6bpJWPOTKD8HyVFeSB0xUE"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:0Lr8dPW3+M74jWtH2eeaaTrM7mHf0GwEiq5rtWa2"/>
     <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
@@ -531,7 +535,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20190620_1446-V7.2.1/workspace/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/TS7.3.1/Talend-Studio-20200219_1130-V7.3.1/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -551,7 +555,7 @@
     <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:A1+IOMKrzwhSZYWZZsmK33OJ/yoLt8/Rs2YOSdeO"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:JwrnsogzqCpmp1vl4eslGppo3uzYmJke/bw24xFr"/>
     <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
@@ -702,7 +706,7 @@
     <elementParameter field="TEXT" name="DBNAME" value="context.mysql_database"/>
     <elementParameter field="TEXT" name="PROPERTIES" value="&quot;noDatetimeStringSync=true&quot;"/>
     <elementParameter field="TEXT" name="USER" value="context.mysql_username"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:xOAH235HllgOC258/qYQZmkEsw67fpOWt7tvVdEUBwrtoAyoxLRhwz97MvB0GrPAP8w="/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:giXtiBs2BYo5OeIMxxzN3tNWwHcWjNg1jNyEh7ypcZEA1FSlsc+v42pcFr7LRa9NhG8="/>
     <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
     <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
     <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
@@ -834,6 +838,9 @@
     <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
     <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
     <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
     <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <elementParameter field="CHECK" name="INFORMATION" value="true"/>
@@ -880,7 +887,7 @@
     <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
     <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
     <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:DLQ3T79Ur8Vy7b0kUYaEpjacm2vkPjfooTGxB9q3"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:si9e5M6elIElZq2Z8YPn04ejIvUO+fifi6e73zHd"/>
     <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
     <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
     <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
@@ -972,7 +979,7 @@
     <elementParameter field="TEXT" name="SERVERPORT" value="context.amq_port"/>
     <elementParameter field="TABLE" name="SERVERS" show="false"/>
     <elementParameter field="TEXT" name="USER" value="&quot;&quot;"/>
-    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:A4I74oY0ezTsBaGtFYqp6GYMCBpNDxwWbrAdOx3E"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:SpoaTV8G0eTw6rWVKjPT9Z0M3ImKp1/0NRkgwGzM"/>
     <elementParameter field="TEXT" name="FROM" value="context.queue_SourceRequest"/>
     <elementParameter field="CLOSED_LIST" name="MSGTYPE" value="Queue"/>
     <elementParameter field="TEXT" name="CHANNEL" show="false" value="&quot;DC.SVRCONN&quot;"/>
@@ -1346,13 +1353,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9accd767-591d-4573-9835-0faca68444a2"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>KRMPTTdhrfs9xUHh9TMdzV7f8mPP9xNVY9IWZ05zs8tPqxc/HpZrxa+83iydaMtgtL05kbZ3nDbf&#13;
-t+rGyfv3kA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_9c752f5e-eb60-4ca8-b0b3-3787069cdc4a"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2V1FGItdFrW8vXhFkZuS/yeh/wNIWhQXzSgtFAioSpyJF/VoVfc46npaF4GazYCL5jRB1lBApp01&#13;
-zbfhC1+FvA==</DigestValue></Reference></SignedInfo><SignatureValue>ecoQ3/O5sjkeXhAjbFB5DStShwv72qAWbFGOhHa/1g6ZeVSCYkECKpP0LVdmRVZIoMkrONAcDHyL&#13;
-OQo9F/K445kGEbBo/L8O8vYURLOQ8ynfaF/d57cg0deqtOXF9A1HNqWCB79ICn9Jczz5+i1liVPp&#13;
-I1KGVJDLbuMmj1yv7nTm/mGD3MoG2jPJWualm02LdfNpXcVzYnxZMw0xZn5BVqsuPs9jH/w633Rk&#13;
-/55bvul713HkaOI9/AbUrCqH4RlZQtRCUHAtJEYJKKh0hlVRa5RQHfqSc20c5tokq/BVXrxCL7Kh&#13;
-NjGbnb/yit+MY1OBvkCkjP/lkjJ2x6vJYMz+Ug==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_45ca7800-4818-4b10-8cad-057235d422bd"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qe6HvXEyoVW+6b+BKAhT3qtBDqaHbJrj34oL+jf70Ln0aV+oZaoHGgGNhNw6dlNMj/483E1MARYk&#13;
+oUJ5caXMfA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_7eee2f53-cbc9-4475-95e4-80c291c0f3b2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>3VLeCDVoPTWROcY8X74FDNVG3clZG7MIz+ZdBcnQn8KTz8mA812ib+gQCBVU3PnSJMoFgowvpG8v&#13;
+EkedLcbq+A==</DigestValue></Reference></SignedInfo><SignatureValue>WBk8n+5QQHWH7a7RTuNJKlZTwyIqzs0aapUcLiIkqbl6Rv4lI0PnFjDWldTxjO/CKF95yDtIqg1F&#13;
+dF3+1DPzNu23T+77OX1u7Ggy4JxTjfDUyR2hmc68f7pfvwEPUYGLXOn62RLyOHkxDbIiBL6RBv3X&#13;
+9502F5vlTKfEgHF9nX3yqtnSh7pKE5c0Wm1up0jbD5RHRdIVpxcBuawyfDxWq10a066rojcLLD3A&#13;
+MLa/mjMaySStiF6bcp/4XVLqOCIqz47+X5Ms9aSdMvBsage3SxKMtyqCsIzaksYe5xo6BkUGIVWR&#13;
++aGHX+QgNpjS2T0j5BwivBfi39yTU8AEHbd/Tw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
@@ -1374,4 +1381,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_9c752f5e-eb60-4ca8-b0b3-3787069cdc4a" Target="#_9accd767-591d-4573-9835-0faca68444a2"><Timestamp>2021-05-14 12:22:19</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_7eee2f53-cbc9-4475-95e4-80c291c0f3b2" Target="#_45ca7800-4818-4b10-8cad-057235d422bd"><Timestamp>2021-05-14 12:31:32</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
