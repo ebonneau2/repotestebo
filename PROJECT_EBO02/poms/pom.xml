@@ -18,6 +18,7 @@
     <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_3_sqoop_ingestion_0.1</module>
     <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/mjob400_source_ingestion1_0.1</module>
     <module>jobs/process/DIF_MAIN/TARGET_INGESTION_500/mjob503_update_status_0.1</module>
+    <module>jobs/process/MyCases/CustomerCases/MarkFinn_Snowflake755/snowflake755_0.1</module>
     <module>jobs/process/folder1/standardjob_01_0.1</module>
     <module>jobs/process/folder1/webhook_sleep_0.1</module>
     <module>jobs/process/jobpasswordparameters_0.1</module>
