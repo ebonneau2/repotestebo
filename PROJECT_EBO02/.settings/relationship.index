@@ -250,10 +250,6 @@
     "id" : "_iOnLIAcwEeu9PNDn8z_tIw",
     "version" : "Latest",
     "type" : "property"
-  }, {
-    "id" : "MDM",
-    "version" : "Latest",
-    "type" : "routine"
   } ]
 }, {
   "baseItem" : {
