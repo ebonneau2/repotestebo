@@ -1,0 +1,224 @@
+{
+  "itemId" : "_aPcM8LJJEeuRWIKfBcruHQ",
+  "contextList" : [ {
+    "contextName" : "Dev",
+    "repoId" : "_YKcwQLGiEeulec1G3coI6A",
+    "parameterList" : [ {
+      "id" : "_YLNlT7GiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_account"
+    }, {
+      "id" : "_YLNlSrGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_customRegionID"
+    }, {
+      "id" : "_YLNlSLGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_db"
+    }, {
+      "id" : "_YLNlRLGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_jdbcParameters"
+    }, {
+      "id" : "_YLNlR7GiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_keyAlias"
+    }, {
+      "id" : "_YLNlUbGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_loginTimeout"
+    }, {
+      "id" : "_YLNlQrGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientId"
+    }, {
+      "id" : "_YLNlS7GiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientSecret"
+    }, {
+      "id" : "_YLNlQbGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_YLNlSbGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_YLNlQ7GiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_YLNlTLGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_scope"
+    }, {
+      "id" : "_YLNlRrGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_role"
+    }, {
+      "id" : "_YLNlTrGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_schemaName"
+    }, {
+      "id" : "_YLNlULGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_userPassword_password"
+    }, {
+      "id" : "_YLNlTbGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_userPassword_userId"
+    }, {
+      "id" : "_YLNlRbGiEeulec1G3coI6A",
+      "name" : "EDA_Snowflake_Connection_warehouse"
+    } ]
+  }, {
+    "contextName" : "IA",
+    "repoId" : "_YKcwQLGiEeulec1G3coI6A",
+    "parameterList" : [ {
+      "id" : "_zxN6L7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_account"
+    }, {
+      "id" : "_zxN6KrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_customRegionID"
+    }, {
+      "id" : "_zxN6KLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_db"
+    }, {
+      "id" : "_zxN6JLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_jdbcParameters"
+    }, {
+      "id" : "_zxN6J7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_keyAlias"
+    }, {
+      "id" : "_zxN6MbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_loginTimeout"
+    }, {
+      "id" : "_zxN6IrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientId"
+    }, {
+      "id" : "_zxN6K7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientSecret"
+    }, {
+      "id" : "_zxN6IbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_zxN6KbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_zxN6I7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_zxN6LLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_scope"
+    }, {
+      "id" : "_zxN6JrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_role"
+    }, {
+      "id" : "_zxN6LrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_schemaName"
+    }, {
+      "id" : "_zxN6MLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_userPassword_password"
+    }, {
+      "id" : "_zxN6LbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_userPassword_userId"
+    }, {
+      "id" : "_zxN6JbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_warehouse"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_YKcwQLGiEeulec1G3coI6A",
+    "parameterList" : [ {
+      "id" : "_zxN6QbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_account"
+    }, {
+      "id" : "_zxN6PLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_customRegionID"
+    }, {
+      "id" : "_zxN6OrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_db"
+    }, {
+      "id" : "_zxN6NrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_jdbcParameters"
+    }, {
+      "id" : "_zxN6ObGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_keyAlias"
+    }, {
+      "id" : "_zxN6Q7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_loginTimeout"
+    }, {
+      "id" : "_zxN6NLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientId"
+    }, {
+      "id" : "_zxN6PbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientSecret"
+    }, {
+      "id" : "_zxN6M7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_zxN6O7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_zxN6NbGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_zxN6PrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_scope"
+    }, {
+      "id" : "_zxN6OLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_role"
+    }, {
+      "id" : "_zxN6QLGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_schemaName"
+    }, {
+      "id" : "_zxN6QrGxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_userPassword_password"
+    }, {
+      "id" : "_zxN6P7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_userPassword_userId"
+    }, {
+      "id" : "_zxN6N7GxEeunc-Vw0Gn3mg",
+      "name" : "EDA_Snowflake_Connection_warehouse"
+    } ]
+  }, {
+    "contextName" : "MO",
+    "repoId" : "_YKcwQLGiEeulec1G3coI6A",
+    "parameterList" : [ {
+      "id" : "_JQHc38HmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_account"
+    }, {
+      "id" : "_JQHc2sHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_customRegionID"
+    }, {
+      "id" : "_JQHc2MHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_db"
+    }, {
+      "id" : "_JQHc1MHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_jdbcParameters"
+    }, {
+      "id" : "_JQHc18HmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_keyAlias"
+    }, {
+      "id" : "_JQHc4cHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_loginTimeout"
+    }, {
+      "id" : "_JQHc0sHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientId"
+    }, {
+      "id" : "_JQHc28HmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_clientSecret"
+    }, {
+      "id" : "_JQHc0cHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthPassword"
+    }, {
+      "id" : "_JQHc2cHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthTokenEndpoint"
+    }, {
+      "id" : "_JQHc08HmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_oauthUserName"
+    }, {
+      "id" : "_JQHc3MHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_oauthProperties_scope"
+    }, {
+      "id" : "_JQHc1sHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_role"
+    }, {
+      "id" : "_JQHc3sHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_schemaName"
+    }, {
+      "id" : "_JQHc4MHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_userPassword_password"
+    }, {
+      "id" : "_JQHc3cHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_userPassword_userId"
+    }, {
+      "id" : "_JQHc1cHmEeuVErdqxTYP-A",
+      "name" : "EDA_Snowflake_Connection_warehouse"
+    } ]
+  } ]
+}
