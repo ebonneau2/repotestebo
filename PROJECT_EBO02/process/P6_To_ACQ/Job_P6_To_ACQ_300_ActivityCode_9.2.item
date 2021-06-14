@@ -1,0 +1,2009 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendXMLMap="http://www.talend.org/xmlmap" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_h_sK4Kg9EeukQJSb2N4gxA" name="p6_activitycodeservice_xmlfilepath" prompt="p6_activitycodeservice_xmlfilepath?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="C:/Talend/ActivityCodeService.xml"/>
+    <contextParameter comment="" internalId="_h_sK4ag9EeukQJSb2N4gxA" name="TableName1" prompt="TableName1?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="p6_activity_code"/>
+    <contextParameter comment="" internalId="_h_sK4qg9EeukQJSb2N4gxA" name="Datetime_Column_Value" prompt="Datetime_Column_Value?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="lastupdatedate"/>
+    <contextParameter comment="" internalId="_h_sK46g9EeukQJSb2N4gxA" name="WSName" prompt="WSName?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="ActivityCode"/>
+    <contextParameter comment="" internalId="_h_sK5Kg9EeukQJSb2N4gxA" name="Etl_Group_Name" prompt="Etl_Group_Name?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="p6_to_acq"/>
+    <contextParameter comment="" internalId="_h_sK5ag9EeukQJSb2N4gxA" name="Last_Load_Datetime1" prompt="Last_Load_Datetime1?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_h_sK5qg9EeukQJSb2N4gxA" name="TableName" prompt="TableName?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="ActivityCode"/>
+    <contextParameter comment="" internalId="_9bGXIKg9EeukQJSb2N4gxA" name="ActivityCodeService_Encoding" prompt="ActivityCodeService_Encoding?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" internalId="_9bGXIag9EeukQJSb2N4gxA" name="ActivityCodeService_XmlFilePath" prompt="ActivityCodeService_XmlFilePath?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_File" value="C:/Talend/ActivityCodeService.xml"/>
+    <contextParameter comment="" internalId="_9bGXIqg9EeukQJSb2N4gxA" name="ActivityCodeService_XPathQuery" prompt="ActivityCodeService_XPathQuery?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="&quot;/&quot;"/>
+    <contextParameter comment="" internalId="_9bGXI6g9EeukQJSb2N4gxA" name="Component" prompt="Component?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXJKg9EeukQJSb2N4gxA" name="Current_Load_Datetime" prompt="Current_Load_Datetime?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_9bGXJag9EeukQJSb2N4gxA" name="Default_End_Datetime" prompt="Default_End_Datetime?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_9bGXJqg9EeukQJSb2N4gxA" name="Default_na_Char" prompt="Default_na_Char?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXJ6g9EeukQJSb2N4gxA" name="Default_na_Code" prompt="Default_na_Code?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXKKg9EeukQJSb2N4gxA" name="Default_na_Desc" prompt="Default_na_Desc?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXKag9EeukQJSb2N4gxA" name="Default_na_Key" prompt="Default_na_Key?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXKqg9EeukQJSb2N4gxA" name="Default_Start_Datetime" prompt="Default_Start_Datetime?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_9bGXK6g9EeukQJSb2N4gxA" name="Default_tbd_Char" prompt="Default_tbd_Char?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXLKg9EeukQJSb2N4gxA" name="Default_tbd_Code" prompt="Default_tbd_Code?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXLag9EeukQJSb2N4gxA" name="Default_tbd_Desc" prompt="Default_tbd_Desc?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXLqg9EeukQJSb2N4gxA" name="Default_tbd_Key" prompt="Default_tbd_Key?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXL6g9EeukQJSb2N4gxA" name="Default_Unk_Char" prompt="Default_Unk_Char?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXMKg9EeukQJSb2N4gxA" name="Default_Unk_Code" prompt="Default_Unk_Code?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXMag9EeukQJSb2N4gxA" name="Default_Unk_Desc" prompt="Default_Unk_Desc?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXMqg9EeukQJSb2N4gxA" name="Default_Unk_Key" prompt="Default_Unk_Key?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXM6g9EeukQJSb2N4gxA" name="Error_Message" prompt="Error_Message?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXNKg9EeukQJSb2N4gxA" name="Etl_Process_Id" prompt="Etl_Process_Id?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXNag9EeukQJSb2N4gxA" name="Last_Load_Datetime" prompt="Last_Load_Datetime?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_9bGXNqg9EeukQJSb2N4gxA" name="LoadType" prompt="LoadType?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXN6g9EeukQJSb2N4gxA" name="Max_Surrogate_Key" prompt="Max_Surrogate_Key?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXOKg9EeukQJSb2N4gxA" name="Meta_Source_System_Code_EBS" prompt="Meta_Source_System_Code_EBS?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXOag9EeukQJSb2N4gxA" name="Meta_Source_System_Code_EPC" prompt="Meta_Source_System_Code_EPC?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXOqg9EeukQJSb2N4gxA" name="Prev_Moment" prompt="Prev_Moment?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_Date" value=""/>
+    <contextParameter comment="" internalId="_9bGXO6g9EeukQJSb2N4gxA" name="Process_Status" prompt="Process_Status?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXPKg9EeukQJSb2N4gxA" name="Status" prompt="Status?" promptNeeded="false" repositoryContextId="_Y8b68A_bEem7Ltbnz8ZZ9A" type="id_String" value="Error"/>
+    <contextParameter comment="" internalId="_9bGXPag9EeukQJSb2N4gxA" name="Postgres_JDBC" prompt="Postgres_JDBC?" promptNeeded="false" repositoryContextId="_Ukn8QD6OEeqktdQUU20Yvw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXPqg9EeukQJSb2N4gxA" name="Postgres_Schema_ACQ" prompt="Postgres_Schema_ACQ?" promptNeeded="false" repositoryContextId="_Ukn8QD6OEeqktdQUU20Yvw" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXP6g9EeukQJSb2N4gxA" name="Postgres_Schema_ACQ_EBS" prompt="Postgres_Schema_ACQ_EBS?" promptNeeded="false" repositoryContextId="_Ukn8QD6OEeqktdQUU20Yvw" type="id_String" value="acq_ebs"/>
+    <contextParameter comment="" internalId="_9bGXQKg9EeukQJSb2N4gxA" name="Redshift_Schema" prompt="Redshift_Schema?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXQag9EeukQJSb2N4gxA" name="Redshift_Schema_ACQ_EBS" prompt="Redshift_Schema_ACQ_EBS?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="acq_ebs"/>
+    <contextParameter comment="" internalId="_9bGXQqg9EeukQJSb2N4gxA" name="Redshift_Schema_ACQ_EPC" prompt="Redshift_Schema_ACQ_EPC?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="acq_epc"/>
+    <contextParameter comment="" internalId="_9bGXQ6g9EeukQJSb2N4gxA" name="Redshift_Schema_Admin" prompt="Redshift_Schema_Admin?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="admin"/>
+    <contextParameter comment="" internalId="_9bGXRKg9EeukQJSb2N4gxA" name="Redshift_Schema_Base" prompt="Redshift_Schema_Base?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="base"/>
+    <contextParameter comment="" internalId="_9bGXRag9EeukQJSb2N4gxA" name="Redshift_Schema_Dwh" prompt="Redshift_Schema_Dwh?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="dwh"/>
+    <contextParameter comment="" internalId="_9bGXRqg9EeukQJSb2N4gxA" name="Redshift_Schema_Stg" prompt="Redshift_Schema_Stg?" promptNeeded="false" repositoryContextId="_ld_jgARVEemAjPuvVtKQvg" type="id_String" value="stg"/>
+    <contextParameter comment="" internalId="_9bGXR6g9EeukQJSb2N4gxA" name="Redshift_Username" prompt="Redshift_Username?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="svc_talend_dev"/>
+    <contextParameter comment="" internalId="_9bGXSKg9EeukQJSb2N4gxA" name="Alias_Column_Names" prompt="Alias_Column_Names?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXSag9EeukQJSb2N4gxA" name="Column_Names" prompt="Column_Names?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXSqg9EeukQJSb2N4gxA" name="Ebs_Tbl_Cnt" prompt="Ebs_Tbl_Cnt?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXS6g9EeukQJSb2N4gxA" name="Exp_Calc" prompt="Exp_Calc?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXTKg9EeukQJSb2N4gxA" name="File_Seq" prompt="File_Seq?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXTag9EeukQJSb2N4gxA" name="Max_File_Seq" prompt="Max_File_Seq?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXTqg9EeukQJSb2N4gxA" name="Mod_Value" prompt="Mod_Value?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_Integer" value=""/>
+    <contextParameter comment="" internalId="_9bGXT6g9EeukQJSb2N4gxA" name="OracleEbs_Schema_Dynamic" prompt="OracleEbs_Schema_Dynamic?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXUKg9EeukQJSb2N4gxA" name="Rowkey_Exp" prompt="Rowkey_Exp?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXUag9EeukQJSb2N4gxA" name="S3_Region" prompt="S3_Region?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXUqg9EeukQJSb2N4gxA" name="Split_Value" prompt="Split_Value?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_Integer" value="50000"/>
+    <contextParameter comment="" internalId="_9bGXU6g9EeukQJSb2N4gxA" name="wsendpoint1" prompt="wsendpoint1?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="https://pr2006-04-01.myloadspring.com:443/p6ws/services/ActivityCodeService"/>
+    <contextParameter comment="" internalId="_9bGXVKg9EeukQJSb2N4gxA" name="wsendpoint2" prompt="wsendpoint2?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXVag9EeukQJSb2N4gxA" name="wsurl1" prompt="wsurl1?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value="https://pr2006-04-01.myloadspring.com/p6ws/services/ActivityCodeService?wsdl"/>
+    <contextParameter comment="" internalId="_9bGXVqg9EeukQJSb2N4gxA" name="wsurl2" prompt="wsurl2?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXV6g9EeukQJSb2N4gxA" name="ContextFile" prompt="ContextFile?" promptNeeded="false" repositoryContextId="_bgV3kA_aEem7Ltbnz8ZZ9A" type="id_File" value="C:/Talend/EDWProjectFinancial_Context_dev.txt"/>
+    <contextParameter comment="" internalId="_h_sK6ag9EeukQJSb2N4gxA" name="ActivityCode_endpoint" prompt="ActivityCode_endpoint?" promptNeeded="false" repositoryContextId="_oc4GMKg8EeukQJSb2N4gxA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXWKg9EeukQJSb2N4gxA" name="connection_RS_LOG_server" prompt="connection_RS_LOG_server?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value="aw02trshr001.csxrq9vyuuzn.us-east-1.redshift.amazonaws.com"/>
+    <contextParameter comment="" internalId="_9bGXWag9EeukQJSb2N4gxA" name="connection_RS_LOG_password" prompt="connection_RS_LOG_password?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_Password" value="enc:system.encryption.key.v1:0YA7onETjTCiWgCzt1Venm9RXC97iZDGPBJHQPDd9Nq3T0Ga+GSW"/>
+    <contextParameter comment="" internalId="_9bGXWqg9EeukQJSb2N4gxA" name="connection_RS_LOG_JDBC" prompt="connection_RS_LOG_JDBC?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_9bGXW6g9EeukQJSb2N4gxA" name="connection_RS_LOG_schema" prompt="connection_RS_LOG_schema?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value="admin"/>
+    <contextParameter comment="" internalId="_9bGXXKg9EeukQJSb2N4gxA" name="connection_RS_LOG_login" prompt="connection_RS_LOG_login?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value="svc_talend_dev"/>
+    <contextParameter comment="" internalId="_9bGXXag9EeukQJSb2N4gxA" name="connection_RS_LOG_database" prompt="connection_RS_LOG_database?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value="edw_dev"/>
+    <contextParameter comment="" internalId="_9bGXXqg9EeukQJSb2N4gxA" name="connection_RS_LOG_port" prompt="connection_RS_LOG_port?" promptNeeded="false" repositoryContextId="_NYfAUVTNEeu0GaHm6p10HA" type="id_String" value="5439"/>
+    <contextParameter comment="" internalId="_QM_v4Kg-EeukQJSb2N4gxA" name="connection_P6_username" prompt="connection_P6_username?" promptNeeded="false" repositoryContextId="_Q-VrUKKuEeuaZLTgUsIjog" type="id_String" value="dwapi_p6"/>
+    <contextParameter comment="" internalId="_QM_v4ag-EeukQJSb2N4gxA" name="connection_P6_password" prompt="connection_P6_password?" promptNeeded="false" repositoryContextId="_Q-VrUKKuEeuaZLTgUsIjog" type="id_Password" value="enc:system.encryption.key.v1:JXYPqVW3SHQCCXFr7II4vCuYwmj1t1AlRSXkiK0L1pBkmcWtA0NizLc="/>
+    <contextParameter comment="" internalId="_QM_v4qg-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_password" prompt="connection_AWSPG_ACQ_password?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_Password" value="enc:system.encryption.key.v1:r57V+Erk8KqQPwDfAL+wHiCbEhHroMFuVyqBZ/5NDTPr/rLw6rq6GTMV/J4="/>
+    <contextParameter comment="" internalId="_QM_v46g-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_database" prompt="connection_AWSPG_ACQ_database?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_String" value="AWSDEV"/>
+    <contextParameter comment="" internalId="_QM_v5Kg-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_schema_ACQ" prompt="connection_AWSPG_ACQ_schema_ACQ?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_QM_v5ag-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_port" prompt="connection_AWSPG_ACQ_port?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_String" value="5432"/>
+    <contextParameter comment="" internalId="_QM_v5qg-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_username" prompt="connection_AWSPG_ACQ_username?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_String" value="svc_app_attunity"/>
+    <contextParameter comment="" internalId="_QM_v56g-EeukQJSb2N4gxA" name="connection_AWSPG_ACQ_host" prompt="connection_AWSPG_ACQ_host?" promptNeeded="false" repositoryContextId="_NYfAUFTNEeu0GaHm6p10HA" type="id_String" value="aw02trdsr001.cluster-cxzv4ionyssz.us-east-1.rds.amazonaws.com"/>
+    <contextParameter comment="" internalId="_p2CBkKgoEeukQJSb2N4gxA" name="Redshift_Database" prompt="Redshift_Database?" promptNeeded="false" repositoryContextId="_3cun0ALSEemk-I3dkDRQBA" type="id_String" value="edw_dev"/>
+    <contextParameter comment="" internalId="_p2CBkagoEeukQJSb2N4gxA" name="Redshift_Host" prompt="Redshift_Host?" promptNeeded="false" repositoryContextId="_3cun0ALSEemk-I3dkDRQBA" type="id_String" value="aw02trshr001.csxrq9vyuuzn.us-east-1.redshift.amazonaws.com"/>
+    <contextParameter comment="" internalId="_p2CBkqgoEeukQJSb2N4gxA" name="Redshift_JDBC" prompt="Redshift_JDBC?" promptNeeded="false" repositoryContextId="_3cun0ALSEemk-I3dkDRQBA" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_p2CBk6goEeukQJSb2N4gxA" name="Redshift_Password" prompt="Redshift_Password?" promptNeeded="false" repositoryContextId="_3cun0ALSEemk-I3dkDRQBA" type="id_Password" value="enc:system.encryption.key.v1:Mj9MkovgYtax7RTImiY57M8oN55WLYJiDSpJ5nuHXzGOnTc2Xd+Q"/>
+    <contextParameter comment="" internalId="_p2CBlKgoEeukQJSb2N4gxA" name="Redshift_Port" prompt="Redshift_Port?" promptNeeded="false" repositoryContextId="_3cun0ALSEemk-I3dkDRQBA" type="id_String" value="5439"/>
+    <contextParameter comment="" internalId="_IKqNsKjZEeumXsPJP91yEg" name="payload" prompt="payload?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="25"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:4KwJVWTk4CHNwCGpog2F4qBhDXcOrVqvHp7yvEzN"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Talend-Studio-20200219_1130-V7.3.1/Talend-Studio-20200219_1130-V7.3.1/workspace2/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:5x9xmW+cyjzOO22VD1rmoTYqram9HJF+CrHpjq3s"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_Z9xVQP2JEeiVg6K1hdH4Lw" name="DQTechnical"/>
+    <routinesParameter id="_Z2hdwP2JEeiVg6K1hdH4Lw" name="DataMasking"/>
+    <routinesParameter id="_ZeD6cP2JEeiVg6K1hdH4Lw" name="DataOperation"/>
+    <routinesParameter id="_Z6KAkP2JEeiVg6K1hdH4Lw" name="DataQualityDependencies"/>
+    <routinesParameter id="_Z4VboP2JEeiVg6K1hdH4Lw" name="DataQuality"/>
+    <routinesParameter id="_Z7-lgP2JEeiVg6K1hdH4Lw" name="DqStringHandling"/>
+    <routinesParameter id="_ZimcMP2JEeiVg6K1hdH4Lw" name="Mathematical"/>
+    <routinesParameter id="_ZlmF0P2JEeiVg6K1hdH4Lw" name="Numeric"/>
+    <routinesParameter id="_Zox8sP2JEeiVg6K1hdH4Lw" name="Relational"/>
+    <routinesParameter id="_Z0onYP2JEeiVg6K1hdH4Lw" name="SQLike"/>
+    <routinesParameter id="_Zq1yMP2JEeiVg6K1hdH4Lw" name="StringHandling"/>
+    <routinesParameter id="_ZtCxoP2JEeiVg6K1hdH4Lw" name="TalendDataGenerator"/>
+    <routinesParameter id="_Zu_5cP2JEeiVg6K1hdH4Lw" name="TalendDate"/>
+    <routinesParameter id="_ZyvJ8P2JEeiVg6K1hdH4Lw" name="TalendStringUtil"/>
+    <routinesParameter id="_ZxDH4P2JEeiVg6K1hdH4Lw" name="TalendString"/>
+  </parameters>
+  <node componentName="tPrejob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="64" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="COMMONCOMPONENTS:Jlet_InsertETLJobProcessLog" componentVersion="6.0" offsetLabelX="0" offsetLabelY="0" posX="576" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Jlet_InsertETLJobProcessLog_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="Jlet_UploadContext_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Jlet_InsertETLJobProcessLog"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="992" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="COMMONCOMPONENTS:Jlet_UpdateETLJobProcessLog" componentVersion="6.0" offsetLabelX="0" offsetLabelY="0" posX="1440" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Jlet_UpdateETLJobProcessLog_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tPostgresqlRow_4"/>
+    <elementParameter field="TEXT" name="LABEL" value="Jlet_UpdateETLJobProcessLog"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_2"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.p6_activitycodeservice_xmlfilepath"/>
+    <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;/&quot;"/>
+    <elementParameter field="TABLE" name="MAPPING">
+      <elementValue elementRef="SCHEMA_COLUMN" value="payload"/>
+      <elementValue elementRef="QUERY" value="&quot;.&quot;"/>
+      <elementValue elementRef="NODECHECK" value="true"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LIMIT" value="50"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="IGNORE_NS" value="false"/>
+    <elementParameter field="CHECK" name="IGNORE_DTD" value="false"/>
+    <elementParameter field="FILE" name="TMP_FILENAME" show="false" value="&quot;C:/Users/mishrad/talend_dev/temp.xml&quot;"/>
+    <elementParameter field="CHECK" name="USE_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="FIELD_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="GENERATION_MODE" value="Dom4j"/>
+    <elementParameter field="CHECK" name="CHECK_DATE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="LABEL" value="read_inputxml"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="ActivityCodeService" name="tFileInputXML_2">
+      <column comment="" key="false" length="16" name="payload" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="REJECT" label="ActivityCodeService" name="REJECT">
+      <column comment="" key="false" length="16" name="payload" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="0" type="id_Document" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="320" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="XML_map"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="payload">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row1">
+        <nodes expression="" name="payload" type="id_Document" xpath="row1/payload">
+          <children main="true" name="soapenv:Envelope" type="id_String" xpath="row1.payload:/soapenv:Envelope">
+            <children main="true" name="soapenv:Body" type="id_String" xpath="row1.payload:/soapenv:Envelope/soapenv:Body">
+              <children main="true" name="v1:ReadActivityCodes" type="id_String" xpath="row1.payload:/soapenv:Envelope/soapenv:Body/v1:ReadActivityCodes">
+                <children loop="true" main="true" name="v1:Field" outgoingConnections="//@node.5/@nodeData/@connections.0" type="id_String" xpath="row1.payload:/soapenv:Envelope/soapenv:Body/v1:ReadActivityCodes/v1:Field"/>
+                <children name="v1:Filter" outgoingConnections="//@node.5/@nodeData/@connections.1" type="id_String" xpath="row1.payload:/soapenv:Envelope/soapenv:Body/v1:ReadActivityCodes/v1:Filter"/>
+              </children>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees activateCondensedTool="true" name="payload">
+        <nodes expression="" name="payload" type="id_Document" xpath="payload/payload">
+          <children main="true" name="tns:ReadActivityCodes" type="id_String" xpath="payload.payload:/tns:ReadActivityCodes" xsi:type="TalendXMLMap:OutputTreeNode">
+            <children defaultValue="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1" name="tns" nodeType="NAME_SPACE" type="id_String" xpath="payload.payload:/tns:ReadActivityCodes/xmlns:tns" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression=" [row1.payload:/soapenv:Envelope/soapenv:Body/v1:ReadActivityCodes/v1:Field]" incomingConnections="//@node.5/@nodeData/@connections.0" loop="true" main="true" name="tns:Field" type="id_String" xpath="payload.payload:/tns:ReadActivityCodes/tns:Field" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children aggregate="true" expression=" [row1.payload:/soapenv:Envelope/soapenv:Body/v1:ReadActivityCodes/v1:Filter]" incomingConnections="//@node.5/@nodeData/@connections.1" name="tns:Filter" type="id_String" xpath="payload.payload:/tns:ReadActivityCodes/tns:Filter" xsi:type="TalendXMLMap:OutputTreeNode"/>
+            <children expression="" name="tns:OrderBy" type="id_String" xpath="payload.payload:/tns:ReadActivityCodes/tns:OrderBy" xsi:type="TalendXMLMap:OutputTreeNode"/>
+          </children>
+        </nodes>
+      </outputTrees>
+      <varTables name="Var">
+        <nodes expression=" " name="Var1" type="id_String"/>
+      </varTables>
+      <connections source="//@node.5/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.0" target="//@node.5/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.5/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.0/@children.0/@children.1" target="//@node.5/@nodeData/@outputTrees.0/@nodes.0/@children.0/@children.2" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tESBConsumer" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tESBConsumer_1"/>
+    <elementParameter field="CHECK" name="TSTATCATCHER_STATS" value="true"/>
+    <elementParameter field="EXTERNAL" name="SERVICE_CONFIGURATION" value=""/>
+    <elementParameter field="CHECK" name="SERVICE_LOCATOR" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="SERVICE_LOCATOR_STRATEGY" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="SERVICE_ACTIVITY_MONITOR" value="false"/>
+    <elementParameter field="CHECK" name="USE_SR" value="false"/>
+    <elementParameter field="LABEL" name="AUTHENTICATION_LABEL" show="false" value=""/>
+    <elementParameter field="CHECK" name="AUTH_PROPAGATE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="NEED_AUTH" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="AUTH_TYPE" value="TOKEN"/>
+    <elementParameter field="CLOSED_LIST" name="PROPAGATE_TYPE" show="false" value="NONE"/>
+    <elementParameter field="LABEL" name="PROPAGATE_U_P_LABEL" show="false" value=""/>
+    <elementParameter field="LABEL" name="PROPAGATE_CERT_LABEL" show="false" value=""/>
+    <elementParameter field="TEXT" name="AUTH_ALIAS" show="false" value="&quot;alias&quot;"/>
+    <elementParameter field="TEXT" name="AUTH_USERNAME" value="context.connection_P6_username"/>
+    <elementParameter field="PASSWORD" name="AUTH_PASSWORD" value="enc:system.encryption.key.v1:xk5eFuELzWeLbQG9AqUSX3pMCFMKSybZK0fh1sjiTSP0qSu9BjBWp7PdrajWbIlBMcu9+npuZxmtdg=="/>
+    <elementParameter field="CHECK" name="NEED_AUTHORIZATION" show="false" value="false"/>
+    <elementParameter field="LABEL" name="AUTHORIZATION_LABEL" show="false" value=""/>
+    <elementParameter field="TEXT" name="ROLE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="NEED_ENCRYPTION" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_BUSINESS_CORRELATION" value="false"/>
+    <elementParameter field="TEXT" name="CORRELATION_VALUE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="ENABLE_CXF_MESSAGE_GZIP" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="ESB_ENDPOINT" value="context.ActivityCode_endpoint"/>
+    <elementParameter field="TEXT" name="ENDPOINT" show="false" value="&quot;C:/Talend/ActivityCodeService.wsdl&quot;"/>
+    <elementParameter field="TEXT" name="SERVICE_NS" show="false" value="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1"/>
+    <elementParameter field="TEXT" name="SERVICE_NAME" show="false" value="ActivityCodeService"/>
+    <elementParameter field="TEXT" name="PORT_NS" show="false" value="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1"/>
+    <elementParameter field="TEXT" name="PORT_NAME" show="false" value="ActivityCodePort"/>
+    <elementParameter field="TEXT" name="METHOD_NS" show="false" value="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1"/>
+    <elementParameter field="TEXT" name="METHOD" show="false" value="ReadActivityCodes(ReadActivityCodes):ReadActivityCodesResponse throws IntegrationFault"/>
+    <elementParameter field="TEXT" name="SOAP_ACTION" show="false" value="ReadActivityCodes"/>
+    <elementParameter field="TEXT" name="COMMUNICATION_STYLE" show="false" value="request-response"/>
+    <elementParameter field="CHECK" name="LOG_MESSAGES" value="true"/>
+    <elementParameter field="CHECK" name="FOLLOW_REDIRECTS" value="false"/>
+    <elementParameter field="CHECK" name="REDIRECT_NON_SAME_HOST" show="false" value="false"/>
+    <elementParameter field="TABLE" name="SERVICE_LOCATOR_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TABLE" name="SERVICE_ACTIVITY_CUSTOM_PROPERTIES" show="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_TIMEOUT" value="30"/>
+    <elementParameter field="LABEL" name="CONNECTION_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="TEXT" name="RECEIVE_TIMEOUT" value="60"/>
+    <elementParameter field="LABEL" name="RECEIVE_TIMEOUT_DESC" value="(Studio Only, See Doc for Runtime)"/>
+    <elementParameter field="CHECK" name="DISABLE_CHUNKING" value="false"/>
+    <elementParameter field="CHECK" name="NEED_SSL_TO_TRUSTSERVER" value="false"/>
+    <elementParameter field="TEXT" name="SSL_TRUSTSERVER_TRUSTSTORE" show="false" value="&quot;C:/clientTrustStore.trustStore&quot;"/>
+    <elementParameter field="PASSWORD" name="SSL_TRUSTSERVER_PASSWORD" show="false" value="enc:system.encryption.key.v1:NIql0YX77xbhjQHmKk/VfiJ2wZ0N21hjGPIi+YnJtFGFFmb/hkY="/>
+    <elementParameter field="CHECK" name="USE_PROXY" value="false"/>
+    <elementParameter field="TEXT" name="PROXY_HOST" show="false" value="&quot;61.163.92.4&quot;"/>
+    <elementParameter field="TEXT" name="PROXY_PORT" show="false" value="8080"/>
+    <elementParameter field="TEXT" name="PROXY_USERNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PROXY_PASSWORD" show="false" value="enc:system.encryption.key.v1:zUtFHJTHIAe+y7iLNkE9T2r1R4SllHZQhzq/HakN"/>
+    <elementParameter field="TEXT" name="WSDL_CONTENT" show="false" value="eJwB1gcp+FBLAwQUAAgICACAbaNSAAAAAAAAAAAAAAAACQAAAG1haW4ud3NkbO1c3W/bNhB/H7D/&#13;&#10;QfCeE9lpGmxG0qJtmqFA2hp12g4Y9kBLjKNVXyWpOMG2/32kvkyKFEnJshNveSiQirwP3u/ueDxR&#13;&#10;Pn15F4XOLUQ4SOKz0eRwPHJg7CV+EC/PRp+vLg5+Hr188eMPpyvsh1MfXgdxQOhU7MQggmejVx4J&#13;&#10;bgNy/ybx4Ryi28CDI4cAtITkA52AU+DRWTeEpFPXpaJifJgg4IXw0Esid4aCCFDhwJ2duF/nLs/N&#13;&#10;/TIZOTnFlMmumWDvBkYAH9IhnICUslu6bIJbzY6CCJpns1k1CYnxxkreYb/msVqtDlfPcmFH4/HE&#13;&#10;/e395TxXpJrM5pl1ZOO1jmxocmQmKubVZEFMltcgC4n9At/FBC4RYDBfMMqr+5RfKBNgp4Y7op7j&#13;&#10;OIXvEMoF5/+nT6ixpgWpA0MYwZhcJCg6h6Wm3zMQBtcB9DfwJcMq0hN4l27OjS6IWxKlTEN4xwbL&#13;&#10;+FDRjUorrC0Bv2c06CD3vB4rzVOye4tQgnIeDrPn2ShfxrQphblmPsu1ZMkIKpZsCvUaPW0UxB89&#13;&#10;L0M0bmjG4DidQ+yhIGWq8AwxQTSjdOc5J8D7dkVxgQZup67CksVDDhURLtEQTSPqTVybl/fogAnS&#13;&#10;oF/j0vQABNmSPDbRWQAsLlNpsziLYMHZuQVhRil+hTF9ErbYWJ4/o0Lp6vNn1kQfIFkl6Jv1fLYn&#13;&#10;QGQ9/XWGgxhi7HzKQogVAHOGEjBemz6HpHyYZ5gd5hz11mCxLajMQ1eUoMI5B0p9a3cVBMlZ6w2C&#13;&#10;gEB+Nbip4tqk6uQlIl1FOLirIjyLF0kW+8zcciVRhR7dl6fC86YfcQ7QkkMVGaCfAT5RFGjdA7do&#13;&#10;CFUC/Lj4E3rknW/KzsNYQsyIKjfgkFENW2w4OtvqudfTrB35EwT+bt34IoCh3+a/+aByY1bLUfjD&#13;&#10;RRASmlDNW6s1x4/Ih+j1vSXLbUSbhNIDxdoDpiAxRGS35bSRBy2Crt3EOs6mgJMKHrWzt6HYpeoR&#13;&#10;1yZXDlVpxXZtQyy0E9fJti+DuZcYg1tN/YX92YMyTOTqykiVp9Zz+q8n6WesqOlMpPzJoCvtJcDk&#13;&#10;c+r31XpN3kvz3m4xA4iGYH9ylDDK3vTzMiF9yKJFy7LbqmpxvFFdS7LllF5Y+39cQSoMMOiuVqV1&#13;&#10;kiHhoL1IkhACdYQNvU2pQObsrhq22Kp0ltNz714fnlPRu3NTruaYPEx9b2WB/5yfqlDmPEk1bOGn&#13;&#10;OsvpuW9+jpkBcrP1fNrFNTsx3uCMtIvjBzPu0wlE4XCao0I+3uMcItjawL972FwmNZdgoMy+i9DA&#13;&#10;Qx7vv95ABN+EIMOmFnontg/fNRDB3UHAiiFauYAtWENHaMO3udhpjFhEZYspW3l2j0QhgQ0CkcIn&#13;&#10;hR5AC5O1MP5M0zaznt2nVSExoW51CeMluakOaMfj1gCsCQ0HNHmucWHFtNKQm9p6s0yoYVy0Uh4h&#13;&#10;iqpXb2GyULx568Li7Wy+EX3ZK9hrfyp6YI8QcilwT/Y5cFnL8BEaOQWEQFQ79E+/vzq4AAfX44Nf&#13;&#10;/vjr5J+/99fg626rEwdhCBYh21RRJtRjrJlxFRh710Y5eYPzEaIrhdDR8+d7Cynfyt4HW0+O9jdf&#13;&#10;NVr/Ww2hxnuCfYB2n8No8Nqx8b5F4yubiWm8l9mWnMb7m210iNczpCtTp27j3mZxjzOCGIOl9av7&#13;&#10;gigFqDprUjfML9eVCze9ea7YuDUfXrlSGWv1+L6ppBn9E0TYoJnAYRil8GYa4Q3VsXgDYAeiDaN+&#13;&#10;KkpXM9v0ugaiWvXtZ+n+5oYaqTuLdgC20PZTRHNVz04bHYN+Kmne/dqppGMwmI93U0nHYAgP6hdx&#13;&#10;Bh6DeVQ/7WwYDeZh/VS0YTTczjPM3qjkZKsku1Lc0padlUOidklaNZosrgYXJEGcZtrLnrQ6wXSV&#13;&#10;pXa2aShn2xCVZMQgq2plm4S1WLQQ0JCa7yitXw0IkgzbTs6pIbEyuBYGzcVWGQRFdaWCwFRYGAHQ&#13;&#10;XDLUC9oz42svN8nmVyYZFQDmfc8IgfbyjEnYnsGgvbwjw6AsT1UwmPd6IwzauyEmYXsGg/5uijkb&#13;&#10;FfuZTUJSnL065yTxwoFR3J5h0XbhQUahWTqq7K89qBgt3/ZSWSPikVq7qq7KAokrpxZBzL6Ubqmm&#13;&#10;XhejbRd5pIKLfTNbs8TknjWU/MTLWC1ImSAQY6aD9uPb/LtbNl73h/rUcbkmaxL231d557Dlo6Cm&#13;&#10;sq7K87h2VLnUxL93MtYJDQPS+HbR6GV9uHV3JEmK3u304rdS7WmgUnxG8gTUVoHSV4YaqJRXqZ/A&#13;&#10;2ipY+vpRA5byPvETWDtNgY0qs0MWLK6yPsG1VbhaC1ENUM0bjU8QDQJR+bCsK7niFRe/16MoXqtf&#13;&#10;8hEgrn+NQC50R07JXV3kVnVwwwuA7yP2Ww9h4oHCA1jdimlhm6Kj8fjkYHx8MJ4cRvchdQycsvfk&#13;&#10;7OcOpsfHz9z0ZIXdcgHYVenuijZh2vPmKGlfsN+KyB9wv21EH/4LUEsHCP8cXhxSBwAAGEkAAFBL&#13;&#10;AQIUABQACAgIAIBto1L/HF4cUgcAABhJAAAJAAAAAAAAAAAAAAAAAAAAAABtYWluLndzZGxQSwUG&#13;&#10;AAAAAAEAAQA3AAAAiQcAAAAAUoe9CQ==&#13;&#10;"/>
+    <elementParameter field="TABLE" name="HEADERS"/>
+    <elementParameter field="TEXT" name="LABEL" value="process_wsdl"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tESBConsumer_1">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="RESPONSE" name="RESPONSE">
+      <column defaultValue="" key="false" length="0" name="payload" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+    <metadata connector="FAULT" name="FAULT">
+      <column key="false" length="1024" name="faultCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="1024" name="faultString" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="1024" name="faultActor" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="1024" name="faultNode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="1024" name="faultRole" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="0" name="faultDetail" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Document" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_2"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="xml_map_response"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="p6_activity_code" name="ActivityCodeService">
+      <column comment="" key="false" length="40" name="codetypename" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="codetypeobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="codetypescope" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="codevalue" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="color" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="createdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="createuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="120" name="description" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="lastupdatedate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="lastupdateuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="objectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="parentobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="projectobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="sequencenumber" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Short" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row4">
+        <nodes expression="" name="payload" type="id_Document" xpath="row4/payload">
+          <children main="true" name="tns:ReadActivityCodesResponse" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse">
+            <children defaultValue="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1" name="tns" nodeType="NAME_SPACE" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/xmlns:tns"/>
+            <children loop="true" main="true" name="tns:ActivityCode" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode">
+              <children name="tns:CodeTypeName" outgoingConnections="//@node.7/@nodeData/@connections.0" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeName"/>
+              <children name="tns:CodeTypeObjectId" outgoingConnections="//@node.7/@nodeData/@connections.1" type="id_Integer" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeObjectId"/>
+              <children name="tns:CodeTypeScope" outgoingConnections="//@node.7/@nodeData/@connections.2" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeScope"/>
+              <children name="tns:CodeValue" outgoingConnections="//@node.7/@nodeData/@connections.3" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeValue"/>
+              <children name="tns:Color" outgoingConnections="//@node.7/@nodeData/@connections.4" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:Color"/>
+              <children name="tns:CreateDate" outgoingConnections="//@node.7/@nodeData/@connections.13" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" type="id_Date" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CreateDate"/>
+              <children name="tns:CreateUser" outgoingConnections="//@node.7/@nodeData/@connections.5" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CreateUser"/>
+              <children name="tns:Description" outgoingConnections="//@node.7/@nodeData/@connections.6" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:Description"/>
+              <children name="tns:LastUpdateDate" outgoingConnections="//@node.7/@nodeData/@connections.14" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" type="id_Date" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:LastUpdateDate"/>
+              <children name="tns:LastUpdateUser" outgoingConnections="//@node.7/@nodeData/@connections.7" type="id_String" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:LastUpdateUser"/>
+              <children name="tns:ObjectId" outgoingConnections="//@node.7/@nodeData/@connections.8 //@node.7/@nodeData/@connections.12" type="id_Integer" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ObjectId"/>
+              <children name="tns:ParentObjectId" outgoingConnections="//@node.7/@nodeData/@connections.10" type="id_Integer" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ParentObjectId"/>
+              <children name="tns:ProjectObjectId" outgoingConnections="//@node.7/@nodeData/@connections.9" type="id_Integer" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ProjectObjectId"/>
+              <children name="tns:SequenceNumber" outgoingConnections="//@node.7/@nodeData/@connections.11" type="id_Integer" xpath="row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:SequenceNumber"/>
+            </children>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees name="ActivityCodeService">
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeName]" incomingConnections="//@node.7/@nodeData/@connections.0" name="codetypename" type="id_String" xpath="ActivityCodeService/codetypename"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeObjectId]" incomingConnections="//@node.7/@nodeData/@connections.1" name="codetypeobjectid" type="id_Integer" xpath="ActivityCodeService/codetypeobjectid"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeTypeScope]" incomingConnections="//@node.7/@nodeData/@connections.2" name="codetypescope" type="id_String" xpath="ActivityCodeService/codetypescope"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CodeValue]" incomingConnections="//@node.7/@nodeData/@connections.3" name="codevalue" type="id_String" xpath="ActivityCodeService/codevalue"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:Color]" incomingConnections="//@node.7/@nodeData/@connections.4" name="color" type="id_String" xpath="ActivityCodeService/color"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CreateDate] " incomingConnections="//@node.7/@nodeData/@connections.13" name="createdate" pattern="&quot;dd-MM-yyyy&quot;" type="id_Date" xpath="ActivityCodeService/createdate"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:CreateUser]" incomingConnections="//@node.7/@nodeData/@connections.5" name="createuser" type="id_String" xpath="ActivityCodeService/createuser"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:Description]" incomingConnections="//@node.7/@nodeData/@connections.6" name="description" type="id_String" xpath="ActivityCodeService/description"/>
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:LastUpdateDate]" incomingConnections="//@node.7/@nodeData/@connections.14" name="lastupdatedate" pattern="&quot;yyyy-MM-dd'T'HH:mm:ss&quot;" type="id_Date" xpath="ActivityCodeService/lastupdatedate"/>
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:LastUpdateUser]" incomingConnections="//@node.7/@nodeData/@connections.7" name="lastupdateuser" type="id_String" xpath="ActivityCodeService/lastupdateuser"/>
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ObjectId]" incomingConnections="//@node.7/@nodeData/@connections.8" name="objectid" type="id_Integer" xpath="ActivityCodeService/objectid"/>
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ParentObjectId]" incomingConnections="//@node.7/@nodeData/@connections.10" name="parentobjectid" type="id_Integer" xpath="ActivityCodeService/parentobjectid"/>
+        <nodes expression="[row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ProjectObjectId]" incomingConnections="//@node.7/@nodeData/@connections.9" name="projectobjectid" type="id_Integer" xpath="ActivityCodeService/projectobjectid"/>
+        <nodes expression=" [row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:SequenceNumber]" incomingConnections="//@node.7/@nodeData/@connections.11" name="sequencenumber" type="id_Integer" xpath="ActivityCodeService/sequencenumber"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_src_update_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_src_update_datetime"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_src_commit_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_src_commit_datetime"/>
+        <nodes expression="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;1900-01-01 00:00:00&quot;)" name="meta_effective_start_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_effective_start_datetime"/>
+        <nodes expression="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;9999-12-31 23:59:59&quot;)" name="meta_effective_end_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_effective_end_datetime"/>
+        <nodes expression="&quot;INSERT&quot;" name="meta_operation_code" nullable="false" type="id_String" xpath="ActivityCodeService/meta_operation_code"/>
+        <nodes expression="1" name="meta_curr_rec_ind" nullable="false" type="id_Short" xpath="ActivityCodeService/meta_curr_rec_ind"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_insert_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_insert_datetime"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_acq_datetime" nullable="false" type="id_Date" xpath="ActivityCodeService/meta_acq_datetime"/>
+        <nodes expression="&quot;1&quot;" name="meta_rowhash" nullable="false" type="id_String" xpath="ActivityCodeService/meta_rowhash"/>
+        <nodes expression="String.valueOf([row4.payload:/tns:ReadActivityCodesResponse/tns:ActivityCode/tns:ObjectId]) " incomingConnections="//@node.7/@nodeData/@connections.12" name="meta_rowkey" nullable="false" type="id_String" xpath="ActivityCodeService/meta_rowkey"/>
+      </outputTrees>
+      <varTables minimized="true" name="Var"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.0" target="//@node.7/@nodeData/@outputTrees.0/@nodes.0" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.1" target="//@node.7/@nodeData/@outputTrees.0/@nodes.1" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.2" target="//@node.7/@nodeData/@outputTrees.0/@nodes.2" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.3" target="//@node.7/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.4" target="//@node.7/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.6" target="//@node.7/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.7" target="//@node.7/@nodeData/@outputTrees.0/@nodes.7" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.9" target="//@node.7/@nodeData/@outputTrees.0/@nodes.9" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.10" target="//@node.7/@nodeData/@outputTrees.0/@nodes.10" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.12" target="//@node.7/@nodeData/@outputTrees.0/@nodes.12" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.11" target="//@node.7/@nodeData/@outputTrees.0/@nodes.11" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.13" target="//@node.7/@nodeData/@outputTrees.0/@nodes.13" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.10" target="//@node.7/@nodeData/@outputTrees.0/@nodes.23" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.5" target="//@node.7/@nodeData/@outputTrees.0/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.7/@nodeData/@inputTrees.0/@nodes.0/@children.0/@children.1/@children.8" target="//@node.7/@nodeData/@outputTrees.0/@nodes.8" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tPostgresqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="608">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlOutput_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:A1SsD/1iP7YCRKW7VzKaShyr2wOrfr/YzwsKYLR1"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="context.TableName1+&quot;_temp&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="USE_SPATIAL_OPTIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="SPATIAL_INDEX" show="false" value="false"/>
+    <elementParameter field="CHECK" name="GEOMETRY_COLUMNS" show="false" value="false"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="postgres_id"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="SAVE_POINT" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="codetypename"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codetypeobjectid"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codetypescope"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="codevalue"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="color"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="createdate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="createuser"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="description"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastupdatedate"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="lastupdateuser"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="objectid"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="parentobjectid"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="projectobjectid"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="sequencenumber"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_src_update_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_src_commit_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_effective_start_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_effective_end_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_operation_code"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_curr_rec_ind"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_insert_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_acq_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_rowhash"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_rowkey"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="CONVERT_COLUMN_TABLE_TO_LOWERCASE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="load_pg_table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="p6_activity_code" name="tPostgresqlOutput_2">
+      <column comment="" key="false" length="40" name="codetypename" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="codetypeobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="codetypescope" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="codevalue" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="color" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="createdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="createuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="120" name="description" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="lastupdatedate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="lastupdateuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="objectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="parentobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="projectobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="sequencenumber" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Short" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="p6_activity_code" name="REJECT">
+      <column comment="" key="false" length="40" name="codetypename" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="codetypeobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="codetypescope" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="60" name="codevalue" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="color" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="createdate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="createuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="120" name="description" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="lastupdatedate" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="255" name="lastupdateuser" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="objectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="parentobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="projectobjectid" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="sequencenumber" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Short" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tXMLMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="832" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tXMLMap_3"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="KEEP_ORDER_FOR_DOCUMENT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="xml_map_faults"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="etl_faults_log" name="ActivityCodeService_fault">
+      <column comment="" key="false" length="256" name="object_key" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="object_key_field" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="data_pull_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errortype" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="errorcode" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errordescription" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="stacktrace" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="dataset_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="process_next_run_flag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_source_system_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_etl_process_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="80" name="meta_version_number" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <nodeData xsi:type="TalendXMLMap:XmlMapData">
+      <inputTrees lookupMode="LOAD_ONCE" matchingMode="ALL_ROWS" name="row2">
+        <nodes name="faultCode" type="id_String" xpath="row2/faultCode"/>
+        <nodes name="faultString" type="id_String" xpath="row2/faultString"/>
+        <nodes name="faultActor" type="id_String" xpath="row2/faultActor"/>
+        <nodes name="faultNode" type="id_String" xpath="row2/faultNode"/>
+        <nodes name="faultRole" type="id_String" xpath="row2/faultRole"/>
+        <nodes expression="" name="faultDetail" type="id_Document" xpath="row2/faultDetail">
+          <children main="true" name="p6exp:IntegrationFault" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault">
+            <children defaultValue="http://xmlns.oracle.com/Primavera/P6/WS/ActivityCode/V1" name="tns" nodeType="NAME_SPACE" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault/xmlns:tns"/>
+            <children defaultValue="http://xmlns.oracle.com/Primavera/P6/WS/IntegrationFaultType/V1" name="p6exp" nodeType="NAME_SPACE" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault/xmlns:p6exp"/>
+            <children loop="true" name="p6exp:ErrorType" outgoingConnections="//@node.9/@nodeData/@connections.0" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorType"/>
+            <children name="p6exp:ErrorCode" outgoingConnections="//@node.9/@nodeData/@connections.3" type="id_Integer" xpath="row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorCode"/>
+            <children name="p6exp:ErrorDescription" outgoingConnections="//@node.9/@nodeData/@connections.1" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorDescription"/>
+            <children name="p6exp:StackTrace" outgoingConnections="//@node.9/@nodeData/@connections.2" type="id_String" xpath="row2.faultDetail:/p6exp:IntegrationFault/p6exp:StackTrace"/>
+          </children>
+        </nodes>
+      </inputTrees>
+      <outputTrees name="ActivityCodeService_fault">
+        <nodes expression="context.TableName1+&quot;.&quot;+TalendDate.formatDateInUTC(&quot;yyyyMMdd&quot;,TalendDate.getCurrentDate()) " name="object_key" type="id_String" xpath="ActivityCodeService_fault/object_key"/>
+        <nodes expression="&quot;dataset_name.load_datetime&quot; " name="object_key_field" type="id_String" xpath="ActivityCodeService_fault/object_key_field"/>
+        <nodes expression="&quot;Error From P6&quot; " name="data_pull_status" type="id_String" xpath="ActivityCodeService_fault/data_pull_status"/>
+        <nodes expression="[row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorType]" incomingConnections="//@node.9/@nodeData/@connections.0" name="errortype" type="id_String" xpath="ActivityCodeService_fault/errortype"/>
+        <nodes expression=" [row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorCode]" incomingConnections="//@node.9/@nodeData/@connections.3" name="errorcode" type="id_Integer" xpath="ActivityCodeService_fault/errorcode"/>
+        <nodes expression="[row2.faultDetail:/p6exp:IntegrationFault/p6exp:ErrorDescription]" incomingConnections="//@node.9/@nodeData/@connections.1" name="errordescription" type="id_String" xpath="ActivityCodeService_fault/errordescription"/>
+        <nodes expression="[row2.faultDetail:/p6exp:IntegrationFault/p6exp:StackTrace]" incomingConnections="//@node.9/@nodeData/@connections.2" name="stacktrace" type="id_String" xpath="ActivityCodeService_fault/stacktrace"/>
+        <nodes expression="context.TableName1 " name="dataset_name" type="id_String" xpath="ActivityCodeService_fault/dataset_name"/>
+        <nodes expression="&quot;N&quot;" name="process_next_run_flag" type="id_String" xpath="ActivityCodeService_fault/process_next_run_flag"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_src_update_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_src_update_datetime"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_src_commit_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_src_commit_datetime"/>
+        <nodes expression="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;1900-01-01 00:00:00&quot;)" name="meta_effective_start_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_effective_start_datetime"/>
+        <nodes expression="TalendDate.parseDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,&quot;9999-12-31 23:59:59&quot;)" name="meta_effective_end_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_effective_end_datetime"/>
+        <nodes expression="&quot;INSERT&quot;" name="meta_operation_code" type="id_String" xpath="ActivityCodeService_fault/meta_operation_code"/>
+        <nodes expression="1" name="meta_curr_rec_ind" type="id_Integer" xpath="ActivityCodeService_fault/meta_curr_rec_ind"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_insert_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_insert_datetime"/>
+        <nodes expression="context.Current_Load_Datetime" name="meta_acq_datetime" type="id_Date" xpath="ActivityCodeService_fault/meta_acq_datetime"/>
+        <nodes expression="&quot;1&quot;" name="meta_rowkey" type="id_String" xpath="ActivityCodeService_fault/meta_rowkey"/>
+        <nodes expression="context.Meta_Source_System_Code_EPC" name="meta_source_system_code" type="id_String" xpath="ActivityCodeService_fault/meta_source_system_code"/>
+        <nodes expression="context.Etl_Process_Id" name="meta_etl_process_id" type="id_Integer" xpath="ActivityCodeService_fault/meta_etl_process_id"/>
+        <nodes expression="&quot;1&quot;" name="meta_rowhash" type="id_String" xpath="ActivityCodeService_fault/meta_rowhash"/>
+        <nodes expression="&quot;1&quot;" name="meta_version_number" type="id_String" xpath="ActivityCodeService_fault/meta_version_number"/>
+      </outputTrees>
+      <varTables name="Var"/>
+      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.5/@children.0/@children.2" target="//@node.9/@nodeData/@outputTrees.0/@nodes.3" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.5/@children.0/@children.4" target="//@node.9/@nodeData/@outputTrees.0/@nodes.5" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.5/@children.0/@children.5" target="//@node.9/@nodeData/@outputTrees.0/@nodes.6" xsi:type="TalendXMLMap:Connection"/>
+      <connections source="//@node.9/@nodeData/@inputTrees.0/@nodes.5/@children.0/@children.3" target="//@node.9/@nodeData/@outputTrees.0/@nodes.4" xsi:type="TalendXMLMap:Connection"/>
+    </nodeData>
+  </node>
+  <node componentName="tRedshiftOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftOutput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tRedshiftConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:RZxX+hWzyj2wFFMsz2WNzuTMo03kVVJJbqBIr226"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="context.Redshift_Schema_Admin+&quot;.etl_faults_log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+    <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="INSERT"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_ALTERNATE_SCHEMA" value="false"/>
+    <elementParameter field="TEXT" name="ALTERNATE_SCHEMA" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="EXTENDINSERT" value="true"/>
+    <elementParameter field="LABEL" name="NOTE" value="(Not compatible with reject links)"/>
+    <elementParameter field="TEXT" name="NB_ROWS_PER_INSERT" value="100"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TABLE" name="ADD_COLS"/>
+    <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+    <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="object_key"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="object_key_field"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="data_pull_status"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errortype"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errorcode"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="errordescription"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="stacktrace"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="dataset_name"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="process_next_run_flag"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_src_update_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_src_commit_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_effective_start_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_effective_end_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_operation_code"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_curr_rec_ind"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_insert_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_acq_datetime"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_rowkey"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_source_system_code"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_etl_process_id"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_rowhash"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="meta_version_number"/>
+      <elementValue elementRef="UPDATE_KEY" value="false"/>
+      <elementValue elementRef="DELETE_KEY" value="false"/>
+      <elementValue elementRef="UPDATABLE" value="true"/>
+      <elementValue elementRef="INSERTABLE" value="true"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+    <elementParameter field="CHECK" name="USE_BATCH" show="false" value="true"/>
+    <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="10000"/>
+    <elementParameter field="CHECK" name="TABLE_WITH_SCHEMA" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="load_faults_table"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="etl_faults_log" name="tRedshiftOutput_1">
+      <column comment="" key="false" length="256" name="object_key" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="object_key_field" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="data_pull_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errortype" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="errorcode" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errordescription" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="stacktrace" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="dataset_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="process_next_run_flag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_source_system_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_etl_process_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="80" name="meta_version_number" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" defaultValue="identity&quot;(1580033, 22, '1,1'::text)" key="false" length="19" name="record_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="false">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="etl_faults_log" name="REJECT">
+      <column comment="" key="false" length="256" name="object_key" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="object_key_field" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="40" name="data_pull_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errortype" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="errorcode" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="errordescription" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="stacktrace" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="256" name="dataset_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="process_next_run_flag" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_update_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_src_commit_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_start_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_effective_end_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_operation_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_curr_rec_ind" nullable="false" pattern="" precision="0" sourceType="INT2" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_insert_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="meta_acq_datetime" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="300" name="meta_rowkey" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="5" name="meta_source_system_code" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="meta_etl_process_id" nullable="false" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="meta_rowhash" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="80" name="meta_version_number" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="identity&quot;(1580033, 22, '1,1'::text)" key="false" length="19" name="record_id" nullable="true" pattern="" precision="0" sourceType="INT8" type="id_Long" usefulColumn="false">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1184" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_4"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:NgOpChQq0n3pfn1leyC1Ort4TjRV0OQySUD2N4xp"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_temp;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_ins;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_upd;&#13;&#10;&#13;&#10;COMMIT;&#13;&#10;&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="drop_temp_pg_tables"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlRow_4"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="COMMONCOMPONENTS:Jlet_UploadContext" componentVersion="7.4" offsetLabelX="0" offsetLabelY="0" posX="352" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Jlet_UploadContext_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tPrejob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Jlet_UploadContext"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tRedshiftInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tRedshiftConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:sCKyHzA7OABwrS5DY65POMGfE++1dqgYVUFmkgAu"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;etl_table_process_control&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;SELECT&#13;&#10;SYSDATE,&#13;&#10;last_load_datetime,&#13;&#10;column_name,&#13;&#10;'a.'||regexp_replace(column_name,',',',a.') as alias_column_names,&#13;&#10;regexp_replace(exp_cal,',','||''|''||') rowkey_column,&#13;&#10;exp_cal&#13;&#10;FROM &#13;&#10;&quot;+context.Redshift_Schema_Admin+&quot;.etl_table_process_control&#13;&#10;WHERE &#13;&#10;etl_group_name='&quot;+context.Etl_Group_Name+&quot;' AND&#13;&#10;table_name = '&quot;+context.WSName+&quot;';&#13;&#10;&quot;&#13;&#10;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="redshift_id"/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" show="false" value="true"/>
+    <elementParameter field="FILE" name="LOG_FILE" show="false" value="&quot;C:/workspace/redshift-jdbc.log&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" show="false" value="1"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN">
+      <elementValue elementRef="SCHEMA_COLUMN" value="current_load_datetime"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="last_load_datetime"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="column_name"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="alias_column_names"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="rowkey_column"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="exp_cal"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="GetColumnNames"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="etl_table_process_control" name="tRedshiftInput_1">
+      <column comment="" key="false" length="-1" name="current_load_datetime" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH24:mm:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="last_load_datetime" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd'T'HH24:mm:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="column_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="alias_column_names" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="rowkey_column" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="exp_cal" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="352">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="context.Last_Load_Datetime1 = TalendDate.formatDateInUTC(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;,input_row.last_load_datetime);&#10;context.Column_Names=input_row.column_name;&#10;context.Alias_Column_Names = input_row.alias_column_names;&#10;context.Rowkey_Exp = input_row.rowkey_column;&#10;context.Exp_Calc = input_row.exp_cal;&#10;context.Current_Load_Datetime = input_row.current_load_datetime;&#10;&#10;//context.Column_Names=&quot;\&quot;&quot;+StringHandling.UPCASE(input_row.column_name.replaceAll(&quot;,&quot;,&quot;\&quot;,\&quot;&quot;))+&quot;\&quot;&quot;;&#10;//context.Alias_Column_Names = &quot;\&quot;&quot;+StringHandling.UPCASE(input_row.alias_column_names.replaceAll(&quot;,&quot;,&quot;\&quot;,\&quot;&quot;))+&quot;\&quot;&quot;;&#10;&#10;&#10;//context.Datetime_Column_Value = input_row.datetime_column_value;&#10;&#10;System.out.println(TalendDate.parseDate(&quot;yyyy-MM-dd'T'HH:mm:ss&quot;,context.Last_Load_Datetime1));&#10;//System.out.println( StringHandling.UPCASE(context.Column_Names.replaceAll(&quot;,&quot;,&quot;\&quot;,\&quot;&quot;)) );&#10;//System.out.println( context.Alias_Column_Names );&#10;&#10;&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="AssignColumnNames"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="etl_table_process_control" name="tJavaRow_1">
+      <column comment="" key="false" length="-1" name="current_load_datetime" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH24:mm:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="last_load_datetime" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd'T'HH24:mm:ss&quot;" precision="-1" sourceType="DATE" type="id_Date" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="column_name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="alias_column_names" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="rowkey_column" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="exp_cal" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_AWSPG_ACQ_host"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="POSTGRESQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_AWSPG_ACQ_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_AWSPG_ACQ_database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.Postgres_Schema_ACQ"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_AWSPG_ACQ_username"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:iSTE2YBmuL86w0ckFQ7AuVHVH5sL3m0GA7My+C/OzIcCTtLfjD2mmOH3oRBnsKP39QEKukSpw/ld0eBbTwuK43s="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="Conn_PostgresAcq"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tRedshiftConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="288" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_6_wiQBI_Eem7Ltbnz8ZZ9A"/>
+    <elementParameter field="TEXT" name="HOST" value="context.connection_RS_LOG_server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="REDSHIFT"/>
+    <elementParameter field="TEXT" name="PORT" value="context.connection_RS_LOG_port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.connection_RS_LOG_database"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.connection_RS_LOG_schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.connection_RS_LOG_login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:lTtDFnAry9kIutK8KRim/6r33uN/q/gfGWN3yqvIxROx4ux4HAM9HEvIInKS6ofXh3MbMjwEsViPxMo5UH8="/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.connection_RS_LOG_JDBC"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_LOG_FILE" value="true"/>
+    <elementParameter field="FILE" name="LOG_FILE" value="context.Log_File"/>
+    <elementParameter field="CLOSED_LIST" name="LOG_LEVEL" value="0"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="Redshift_Connn"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="448" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_3"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:1MXep1liyEVnKyMxkh6sG2Ez9EhJRuuV0KZO7ESl"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_ins;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_upd;&#13;&#10;&#13;&#10;COMMIT;&#13;&#10;&#13;&#10;&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="DropTempTables"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlRow_3"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="224">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:UXO2Z3nnIkXNerDO7WXzNAR9DhYqFwe8vR+fFBCZ"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;&#13;&#10;&#13;&#10;DROP TABLE IF EXISTS &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_temp;&#13;&#10;&#13;&#10;CREATE  TABLE &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_temp&#13;&#10;AS&#13;&#10;SELECT  *  FROM &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot; WHERE 1=2;&#13;&#10;&#13;&#10;COMMIT;&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="create_pg_temptable"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlRow_1"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tPostgresqlRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="32" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_2"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tPostgresqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="PRIOR_TO_V9"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5432&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="PostgreSQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:xODeOyWXYUWLISyo+5+5FgFsOiPO+kwhbmrF67qP"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;&#13;&#10;Begin;&#13;&#10;&#13;&#10;TRUNCATE &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;;&#13;&#10;&#13;&#10;&#13;&#10;INSERT INTO &quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;&#13;&#10;(&quot;+context.Column_Names+&quot;,meta_src_update_datetime,meta_src_commit_datetime,meta_insert_datetime,meta_rowkey,meta_effective_start_datetime,meta_effective_end_datetime,meta_operation_code,meta_curr_rec_ind,meta_acq_datetime,meta_rowhash)&#13;&#10;SELECT &#13;&#10;&quot;+context.Alias_Column_Names+&quot;,&#13;&#10;current_timestamp at time zone 'UTC' AS meta_src_update_datetime,&#13;&#10;current_timestamp at time zone 'UTC' AS meta_src_commit_datetime,&#13;&#10;current_timestamp at time zone 'UTC' AS meta_insert_datetime,&#13;&#10;a.meta_rowkey,&#13;&#10;to_timestamp('1900-01-01 00:00:00','yyyy-mm-dd HH24:mi:ss') AS meta_effective_start_datetime, &#13;&#10;to_timestamp('9999-12-31 23:59:59','yyyy-mm-dd HH24:mi:ss') AS meta_effective_end_datetime,&#13;&#10;'INSERT' as meta_operation_code,&#13;&#10;1 AS meta_curr_rec_ind,&#13;&#10;current_timestamp at time zone 'UTC' AS meta_acq_datetime,&#13;&#10;'1' AS meta_rowhash&#13;&#10;FROM &#13;&#10;&quot;+context.Postgres_Schema_ACQ+&quot;.&quot;+context.TableName1+&quot;_temp a;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;&#13;&#10;COMMIT;&#13;&#10;&#13;&#10;End;&#13;&#10;&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value=""/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="TEXT" name="LABEL" value="InsertsUpdatesOnMainTable"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tPostgresqlRow_2"/>
+    <metadata connector="REJECT" name="REJECT">
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tRedshiftRow" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="736">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftRow_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tRedshiftConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;5439&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Redshift"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:4dgYLR6Q7pjQQkE0Pd+1Xc2XPdoxp2pa4eXRaq1sNlLdxQdP2LhsXg=="/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:SCHEMA_TYPE" show="false" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="SCHEMA_FLOW:REPOSITORY_SCHEMA_TYPE" show="false" value="_6_wiQBI_Eem7Ltbnz8ZZ9A - etl_table_process_control"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="context.TableName1"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;BEGIN;&#13;&#10;&#13;&#10;UPDATE &#13;&#10;&quot;+context.Redshift_Schema_Admin+&quot;.etl_table_process_control &#13;&#10;SET&#13;&#10;process_status = 'Completed', &#13;&#10;last_load_status ='Success', &#13;&#10;last_load_datetime='&quot;+TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,context.Current_Load_Datetime)+&quot;',&#13;&#10;etl_process_id=&quot;+context.Etl_Process_Id+&quot;,&#13;&#10;message=NULL&#13;&#10;WHERE &#13;&#10;etl_group_name='&quot;+context.Etl_Group_Name+&quot;' AND&#13;&#10;table_name = '&quot;+context.WSName+&quot;';&#13;&#10;&#13;&#10;COMMIT;&#13;&#10;&#13;&#10;END;&#13;&#10;&quot;"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="PROPAGATE_RECORD_SET" value="false"/>
+    <elementParameter field="COLUMN_LIST" name="RECORD_SET_COLUMN" show="false" value="table_audit_id"/>
+    <elementParameter field="CHECK" name="USE_PREPAREDSTATEMENT" value="false"/>
+    <elementParameter field="TABLE" name="SET_PREPAREDSTATEMENT_PARAMETERS" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+    <elementParameter field="CLOSED_LIST" name="JDBC_URL" show="false" value="STANDARD"/>
+    <elementParameter field="TEXT" name="LABEL" value="UpdateAuditTable"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="etl_table_process_control" name="tRedshiftRow_1">
+      <column comment="" key="false" length="10" name="table_audit_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="table_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="65535" name="column_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="etl_group_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="etl_seq_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="etl_seq_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="last_load_datetime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="last_load_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="etl_process_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="process_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="load_enable_flag" nullable="true" pattern="" precision="0" sourceType="CHARACTER" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="65535" name="message" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="65535" name="exp_cal" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="false">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+    <metadata connector="REJECT" label="etl_table_process_control" name="REJECT">
+      <column comment="" key="false" length="10" name="table_audit_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="100" name="table_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="65535" name="column_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="etl_group_name" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="etl_seq_group" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="etl_seq_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="29" name="last_load_datetime" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="6" sourceType="TIMESTAMP" type="id_Date" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="last_load_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="10" name="etl_process_id" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="30" name="process_status" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="1" name="load_enable_flag" nullable="true" pattern="" precision="0" sourceType="CHARACTER" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column comment="" key="false" length="65535" name="message" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+        <additionalField key="Comment" value=""/>
+      </column>
+      <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="65535" name="exp_cal" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="false">
+        <additionalField key="Comment" value=""/>
+      </column>
+    </metadata>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1632" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_1">
+      <column defaultValue="" key="false" length="0" name="moment" nullable="true" originalLength="-1" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="root_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="20" name="father_pid" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="project" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="job" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="50" name="context" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="type" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="origin" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="255" name="message" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="COMMONCOMPONENTS:Jlet_EDW_UpdateTableAudit" componentVersion="6.0" offsetLabelX="0" offsetLabelY="0" posX="1824" posY="32">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Jlet_EDW_UpdateTableAudit_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tLogCatcher_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Jlet_EDW_UpdateTableAudit"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tRedshiftCommit" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1376" posY="416">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftCommit_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tRedshiftConnection_1"/>
+    <elementParameter field="CHECK" name="CLOSE" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRedshiftCommit_1"/>
+  </node>
+  <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+    <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+    <elementParameter field="TABLE" name="VALUES">
+      <elementValue elementRef="SCHEMA_COLUMN" value="payload"/>
+      <elementValue elementRef="VALUE" value="context.payload"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="xml"/>
+      <elementValue elementRef="VALUE" value="context.p6_activitycodeservice_xmlfilepath"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="endpoint"/>
+      <elementValue elementRef="VALUE" value="context.ActivityCode_endpoint"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uname"/>
+      <elementValue elementRef="VALUE" value="context.connection_P6_username"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="pwd"/>
+      <elementValue elementRef="VALUE" value="context.connection_P6_password"/>
+    </elementParameter>
+    <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+    <elementParameter field="TABLE" name="INTABLE" show="false"/>
+    <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+    <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFixedFlowInput_1">
+      <column comment="" key="false" length="-1" name="payload" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="xml" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="endpoint" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="uname" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="pwd" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1248" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
+    <elementParameter field="RADIO" name="VERTICAL" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE" show="false" value="true"/>
+    <elementParameter field="RADIO" name="PRINT_LABEL" show="false" value="false"/>
+    <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;|&quot;"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" show="false" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" show="false" value="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" show="false" value="false"/>
+    <elementParameter field="TABLE" name="LENGTHS" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="payload"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="xml"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="endpoint"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="uname"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="pwd"/>
+      <elementValue elementRef="LENGTH" value="10"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PRINT_CONTENT_WITH_LOG4J" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="100"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogRow_1">
+      <column comment="" key="false" length="-1" name="payload" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="xml" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="endpoint" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="uname" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="pwd" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPrejob_1" offsetLabelX="0" offsetLabelY="0" source="tPrejob_1" target="Jlet_UploadContext_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="tPostgresqlRow_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tFileInputXML_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_2" target="tXMLMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="payload"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFileInputXML_2" offsetLabelX="0" offsetLabelY="0" source="tFileInputXML_2" target="tPostgresqlRow_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="FLOW" label="payload" lineStyle="0" metaname="payload" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_1" target="tESBConsumer_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="payload"/>
+  </connection>
+  <connection connectorName="RESPONSE" label="row4" lineStyle="0" metaname="tESBConsumer_1" offsetLabelX="0" offsetLabelY="0" outputId="1" source="tESBConsumer_1" target="tXMLMap_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row4"/>
+  </connection>
+  <connection connectorName="FAULT" label="row2" lineStyle="0" metaname="FAULT" offsetLabelX="0" offsetLabelY="0" outputId="2" source="tESBConsumer_1" target="tXMLMap_3">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="FLOW" label="ActivityCodeService" lineStyle="0" metaname="ActivityCodeService" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_2" target="tPostgresqlOutput_2">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ActivityCodeService"/>
+  </connection>
+  <connection connectorName="FLOW" label="ActivityCodeService_fault" lineStyle="0" metaname="ActivityCodeService_fault" offsetLabelX="0" offsetLabelY="0" source="tXMLMap_3" target="tRedshiftOutput_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="object_key"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="dataset_name"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="object_key_field"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="data_pull_status"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="process_next_run_flag"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="ActivityCodeService_fault"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tRedshiftOutput_1" offsetLabelX="0" offsetLabelY="0" source="tRedshiftOutput_1" target="tRedshiftCommit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk11"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlRow_4" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlRow_4" target="Jlet_UpdateETLJobProcessLog_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk7"/>
+  </connection>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnComponentOk (TRIGGER_OUTPUT_1)" lineStyle="3" metaname="Jlet_UploadContext_1" offsetLabelX="0" offsetLabelY="0" source="Jlet_UploadContext_1" target="Jlet_InsertETLJobProcessLog_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="row3" lineStyle="0" metaname="tRedshiftInput_1" offsetLabelX="0" offsetLabelY="0" source="tRedshiftInput_1" target="tJavaRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="last_load_datetime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="exp_cal"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="current_load_datetime"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRedshiftInput_1" offsetLabelX="0" offsetLabelY="0" source="tRedshiftInput_1" target="tFileInputXML_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tRedshiftInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlConnection_1" target="tRedshiftConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk4"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tRedshiftConnection_1" offsetLabelX="0" offsetLabelY="0" source="tRedshiftConnection_1" target="tPostgresqlRow_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostgresqlRow_3" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlRow_3" target="tPostgresqlRow_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk6"/>
+  </connection>
+  <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tPostgresqlRow_2" offsetLabelX="0" offsetLabelY="0" source="tPostgresqlRow_2" target="tRedshiftRow_1">
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="(((Integer)globalMap.get(&quot;tRedshiftOutput_1_NB_LINE_INSERTED&quot;))==0)&#10;&amp;&amp;&#10;(((Integer)globalMap.get(&quot;tPostgresqlOutput_2_NB_LINE_INSERTED&quot;))!=0)&#10;&#10;"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="If1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tLogCatcher_1" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_1" target="Jlet_EDW_UpdateTableAudit_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk9"/>
+  </connection>
+  <connection connectorName="FLOW" label="row6" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tLogRow_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row6"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" show="false" value="true"/>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPrejob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Jlet_InsertETLJobProcessLog_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Jlet_UpdateETLJobProcessLog_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputXML_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Jlet_UploadContext_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostgresqlRow_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftRow_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Jlet_EDW_UpdateTableAudit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRedshiftCommit_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    <elementParameter field="CHECK" name="SUBJOB_DISPLAYED" show="false" value="false"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f92335f3-40e8-4508-9278-74bd3a16c22e"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Gjv+jPYmdNFpVTgdR5kmINNxo+ceLDNxUdlilGdICKqyxAy2wlzeTJXzCJwUOFWBVqE9AE6p3mRv&#13;
+sB6UoHMi8g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_fa9e8e1d-615a-4492-a304-ed29b3a4eb47"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UorZ5WOvEEehA6ul0N3eqlOUvwi+g/Xi7Onl2L5xqkBVyDZ3TRO4aW6oY++gsmOCTCWI05wiuvW/&#13;
+FkkgBuDKsA==</DigestValue></Reference></SignedInfo><SignatureValue>c+e4T1xxl0LWSwLVORXjdvnTSdHZRBV1tADuDJF4R7nPTOuh1aRJo/iNdH9WcxKCBXCrsD90bnwk&#13;
+rFdYkxjdDJhtjuvnql6bFMzwNA/bkQD0OmwT/YKY7auYsekSwSuDjpRN0qdrH1+XqbjwOsDG1UTv&#13;
+znt7GsUKulcvk2i/b8v6aSOMkvpO3yYot1UU00J7xyJ7yOSNCBYWv+thxn6hOCGkAiKKo+a/3/Yo&#13;
+Q7f9httJIm1DgBmBVyBy+6jUpFznV4Qi3OS79sikjvGViTPfFjnTEQ3bKnK8BtVjfYSy6kzXvWzw&#13;
+Q0iGPQkBZ5y0Ru4SXPBoA2MXEDKp/GZQGDkJCQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_fa9e8e1d-615a-4492-a304-ed29b3a4eb47" Target="#_f92335f3-40e8-4508-9278-74bd3a16c22e"><Timestamp>2021-06-14 13:57:54</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

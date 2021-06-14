@@ -20,6 +20,10 @@
     <module>jobs/process/DIF_MAIN/TARGET_INGESTION_500/mjob503_update_status_0.1</module>
     <module>jobs/process/Flow/startflowjob_cloud_0.1</module>
     <module>jobs/process/MyCases/CustomerCases/MarkFinn_Snowflake755/snowflake755_0.1</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_0.1</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.0</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.1</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.2</module>
     <module>jobs/process/folder1/standardjob_01_0.1</module>
     <module>jobs/process/folder1/webhook_sleep_0.1</module>
     <module>jobs/process/jobpasswordparameters_0.1</module>

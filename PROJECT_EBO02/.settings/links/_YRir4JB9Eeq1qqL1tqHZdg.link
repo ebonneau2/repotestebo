@@ -1,0 +1,289 @@
+{
+  "itemId" : "_YRir4JB9Eeq1qqL1tqHZdg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_oc4GMKg8EeukQJSb2N4gxA",
+    "parameterList" : [ {
+      "id" : "_h_sK4Kg9EeukQJSb2N4gxA",
+      "name" : "p6_activitycodeservice_xmlfilepath"
+    }, {
+      "id" : "_h_sK4ag9EeukQJSb2N4gxA",
+      "name" : "TableName1"
+    }, {
+      "id" : "_h_sK4qg9EeukQJSb2N4gxA",
+      "name" : "Datetime_Column_Value"
+    }, {
+      "id" : "_h_sK46g9EeukQJSb2N4gxA",
+      "name" : "WSName"
+    }, {
+      "id" : "_h_sK5Kg9EeukQJSb2N4gxA",
+      "name" : "Etl_Group_Name"
+    }, {
+      "id" : "_h_sK5ag9EeukQJSb2N4gxA",
+      "name" : "Last_Load_Datetime1"
+    }, {
+      "id" : "_h_sK5qg9EeukQJSb2N4gxA",
+      "name" : "TableName"
+    }, {
+      "id" : "_9bGXIKg9EeukQJSb2N4gxA",
+      "name" : "ActivityCodeService_Encoding"
+    }, {
+      "id" : "_9bGXIag9EeukQJSb2N4gxA",
+      "name" : "ActivityCodeService_XmlFilePath"
+    }, {
+      "id" : "_9bGXIqg9EeukQJSb2N4gxA",
+      "name" : "ActivityCodeService_XPathQuery"
+    }, {
+      "id" : "_9bGXSKg9EeukQJSb2N4gxA",
+      "name" : "Alias_Column_Names"
+    }, {
+      "id" : "_9bGXSag9EeukQJSb2N4gxA",
+      "name" : "Column_Names"
+    }, {
+      "id" : "_9bGXSqg9EeukQJSb2N4gxA",
+      "name" : "Ebs_Tbl_Cnt"
+    }, {
+      "id" : "_9bGXS6g9EeukQJSb2N4gxA",
+      "name" : "Exp_Calc"
+    }, {
+      "id" : "_9bGXTKg9EeukQJSb2N4gxA",
+      "name" : "File_Seq"
+    }, {
+      "id" : "_9bGXTag9EeukQJSb2N4gxA",
+      "name" : "Max_File_Seq"
+    }, {
+      "id" : "_9bGXTqg9EeukQJSb2N4gxA",
+      "name" : "Mod_Value"
+    }, {
+      "id" : "_9bGXT6g9EeukQJSb2N4gxA",
+      "name" : "OracleEbs_Schema_Dynamic"
+    }, {
+      "id" : "_9bGXUKg9EeukQJSb2N4gxA",
+      "name" : "Rowkey_Exp"
+    }, {
+      "id" : "_9bGXUag9EeukQJSb2N4gxA",
+      "name" : "S3_Region"
+    }, {
+      "id" : "_9bGXUqg9EeukQJSb2N4gxA",
+      "name" : "Split_Value"
+    }, {
+      "id" : "_9bGXU6g9EeukQJSb2N4gxA",
+      "name" : "wsendpoint1"
+    }, {
+      "id" : "_9bGXVKg9EeukQJSb2N4gxA",
+      "name" : "wsendpoint2"
+    }, {
+      "id" : "_9bGXVag9EeukQJSb2N4gxA",
+      "name" : "wsurl1"
+    }, {
+      "id" : "_9bGXVqg9EeukQJSb2N4gxA",
+      "name" : "wsurl2"
+    }, {
+      "id" : "_h_sK6ag9EeukQJSb2N4gxA",
+      "name" : "ActivityCode_endpoint"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Y8b68A_bEem7Ltbnz8ZZ9A",
+    "parameterList" : [ {
+      "id" : "_9bGXI6g9EeukQJSb2N4gxA",
+      "name" : "Component"
+    }, {
+      "id" : "_9bGXJKg9EeukQJSb2N4gxA",
+      "name" : "Current_Load_Datetime"
+    }, {
+      "id" : "_9bGXJag9EeukQJSb2N4gxA",
+      "name" : "Default_End_Datetime"
+    }, {
+      "id" : "_9bGXJqg9EeukQJSb2N4gxA",
+      "name" : "Default_na_Char"
+    }, {
+      "id" : "_9bGXJ6g9EeukQJSb2N4gxA",
+      "name" : "Default_na_Code"
+    }, {
+      "id" : "_9bGXKKg9EeukQJSb2N4gxA",
+      "name" : "Default_na_Desc"
+    }, {
+      "id" : "_9bGXKag9EeukQJSb2N4gxA",
+      "name" : "Default_na_Key"
+    }, {
+      "id" : "_9bGXKqg9EeukQJSb2N4gxA",
+      "name" : "Default_Start_Datetime"
+    }, {
+      "id" : "_9bGXK6g9EeukQJSb2N4gxA",
+      "name" : "Default_tbd_Char"
+    }, {
+      "id" : "_9bGXLKg9EeukQJSb2N4gxA",
+      "name" : "Default_tbd_Code"
+    }, {
+      "id" : "_9bGXLag9EeukQJSb2N4gxA",
+      "name" : "Default_tbd_Desc"
+    }, {
+      "id" : "_9bGXLqg9EeukQJSb2N4gxA",
+      "name" : "Default_tbd_Key"
+    }, {
+      "id" : "_9bGXL6g9EeukQJSb2N4gxA",
+      "name" : "Default_Unk_Char"
+    }, {
+      "id" : "_9bGXMKg9EeukQJSb2N4gxA",
+      "name" : "Default_Unk_Code"
+    }, {
+      "id" : "_9bGXMag9EeukQJSb2N4gxA",
+      "name" : "Default_Unk_Desc"
+    }, {
+      "id" : "_9bGXMqg9EeukQJSb2N4gxA",
+      "name" : "Default_Unk_Key"
+    }, {
+      "id" : "_9bGXM6g9EeukQJSb2N4gxA",
+      "name" : "Error_Message"
+    }, {
+      "id" : "_9bGXNKg9EeukQJSb2N4gxA",
+      "name" : "Etl_Process_Id"
+    }, {
+      "id" : "_9bGXNag9EeukQJSb2N4gxA",
+      "name" : "Last_Load_Datetime"
+    }, {
+      "id" : "_9bGXNqg9EeukQJSb2N4gxA",
+      "name" : "LoadType"
+    }, {
+      "id" : "_9bGXN6g9EeukQJSb2N4gxA",
+      "name" : "Max_Surrogate_Key"
+    }, {
+      "id" : "_9bGXOKg9EeukQJSb2N4gxA",
+      "name" : "Meta_Source_System_Code_EBS"
+    }, {
+      "id" : "_9bGXOag9EeukQJSb2N4gxA",
+      "name" : "Meta_Source_System_Code_EPC"
+    }, {
+      "id" : "_9bGXOqg9EeukQJSb2N4gxA",
+      "name" : "Prev_Moment"
+    }, {
+      "id" : "_9bGXO6g9EeukQJSb2N4gxA",
+      "name" : "Process_Status"
+    }, {
+      "id" : "_9bGXPKg9EeukQJSb2N4gxA",
+      "name" : "Status"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Ukn8QD6OEeqktdQUU20Yvw",
+    "parameterList" : [ {
+      "id" : "_9bGXPag9EeukQJSb2N4gxA",
+      "name" : "Postgres_JDBC"
+    }, {
+      "id" : "_9bGXPqg9EeukQJSb2N4gxA",
+      "name" : "Postgres_Schema_ACQ"
+    }, {
+      "id" : "_9bGXP6g9EeukQJSb2N4gxA",
+      "name" : "Postgres_Schema_ACQ_EBS"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_ld_jgARVEemAjPuvVtKQvg",
+    "parameterList" : [ {
+      "id" : "_9bGXQKg9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema"
+    }, {
+      "id" : "_9bGXQag9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_ACQ_EBS"
+    }, {
+      "id" : "_9bGXQqg9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_ACQ_EPC"
+    }, {
+      "id" : "_9bGXQ6g9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_Admin"
+    }, {
+      "id" : "_9bGXRKg9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_Base"
+    }, {
+      "id" : "_9bGXRag9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_Dwh"
+    }, {
+      "id" : "_9bGXRqg9EeukQJSb2N4gxA",
+      "name" : "Redshift_Schema_Stg"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_bgV3kA_aEem7Ltbnz8ZZ9A",
+    "parameterList" : [ {
+      "id" : "_9bGXV6g9EeukQJSb2N4gxA",
+      "name" : "ContextFile"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_NYfAUVTNEeu0GaHm6p10HA",
+    "parameterList" : [ {
+      "id" : "_9bGXWKg9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_server"
+    }, {
+      "id" : "_9bGXWag9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_password"
+    }, {
+      "id" : "_9bGXWqg9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_JDBC"
+    }, {
+      "id" : "_9bGXW6g9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_schema"
+    }, {
+      "id" : "_9bGXXKg9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_login"
+    }, {
+      "id" : "_9bGXXag9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_database"
+    }, {
+      "id" : "_9bGXXqg9EeukQJSb2N4gxA",
+      "name" : "connection_RS_LOG_port"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_Q-VrUKKuEeuaZLTgUsIjog",
+    "parameterList" : [ {
+      "id" : "_QM_v4Kg-EeukQJSb2N4gxA",
+      "name" : "connection_P6_username"
+    }, {
+      "id" : "_QM_v4ag-EeukQJSb2N4gxA",
+      "name" : "connection_P6_password"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_NYfAUFTNEeu0GaHm6p10HA",
+    "parameterList" : [ {
+      "id" : "_QM_v4qg-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_password"
+    }, {
+      "id" : "_QM_v46g-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_database"
+    }, {
+      "id" : "_QM_v5Kg-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_schema_ACQ"
+    }, {
+      "id" : "_QM_v5ag-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_port"
+    }, {
+      "id" : "_QM_v5qg-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_username"
+    }, {
+      "id" : "_QM_v56g-EeukQJSb2N4gxA",
+      "name" : "connection_AWSPG_ACQ_host"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_3cun0ALSEemk-I3dkDRQBA",
+    "parameterList" : [ {
+      "id" : "_p2CBkKgoEeukQJSb2N4gxA",
+      "name" : "Redshift_Database"
+    }, {
+      "id" : "_p2CBkagoEeukQJSb2N4gxA",
+      "name" : "Redshift_Host"
+    }, {
+      "id" : "_p2CBkqgoEeukQJSb2N4gxA",
+      "name" : "Redshift_JDBC"
+    }, {
+      "id" : "_p2CBk6goEeukQJSb2N4gxA",
+      "name" : "Redshift_Password"
+    }, {
+      "id" : "_p2CBlKgoEeukQJSb2N4gxA",
+      "name" : "Redshift_Port"
+    } ]
+  } ]
+}
