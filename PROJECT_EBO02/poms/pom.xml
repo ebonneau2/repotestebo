@@ -27,6 +27,7 @@
     <module>jobs/process/folder1/standardjob_01_0.1</module>
     <module>jobs/process/folder1/webhook_sleep_0.1</module>
     <module>jobs/process/jobpasswordparameters_0.1</module>
+    <module>jobs/process/test_esb_bug_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO02</talend.project.name>
