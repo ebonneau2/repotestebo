@@ -52,6 +52,7 @@
     <module>jobs/services/crmservice_0.1</module>
     <module>jobs/services/demoservice_0.1</module>
     <module>jobs/services/reservationservice_0.1</module>
+    <module>jobs/services/test_0.1</module>
   </modules>
   <properties>
     <talend.project.name>PROJECT_EBO02</talend.project.name>
