@@ -489,53 +489,9 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_3cun0ALSEemk-I3dkDRQBA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_NYfAUFTNEeu0GaHm6p10HA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_NYfAUVTNEeu0GaHm6p10HA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_Q-VrUKKuEeuaZLTgUsIjog",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_Ukn8QD6OEeqktdQUU20Yvw",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_Y8b68A_bEem7Ltbnz8ZZ9A",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_bgV3kA_aEem7Ltbnz8ZZ9A",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_ld_jgARVEemAjPuvVtKQvg",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
-    "id" : "_oc4GMKg8EeukQJSb2N4gxA",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "built-in",
     "version" : "Latest",
     "type" : "context"
-  }, {
-    "id" : "_6_wiQBI_Eem7Ltbnz8ZZ9A",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_6_wiQBI_Eem7Ltbnz8ZZ9A - etl_table_process_control",
-    "version" : "Latest",
-    "type" : "schema"
   } ]
 }, {
   "baseItem" : {
