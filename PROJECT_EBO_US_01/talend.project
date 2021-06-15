@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_ak85MCmtEeufzJKpu1LmLg" label="project_ebo_us_01" language="java" technicalLabel="PROJECT_EBO_US_01" author="_ak85MSmtEeufzJKpu1LmLg" productVersion="Talend Cloud Real-Time Big Data Platform-7.3.1.20200526_0101-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ebonneau2/repotestebo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_ak85MCmtEeufzJKpu1LmLg" label="project_ebo_us_01" language="java" technicalLabel="PROJECT_EBO_US_01" author="_ak85MSmtEeufzJKpu1LmLg" productVersion="Talend Cloud Real-Time Big Data Platform-7.3.1.20210422_0824-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/ebonneau2/repotestebo.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <migrationTask xmi:id="_am6oECmtEeufzJKpu1LmLg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ak85MSmtEeufzJKpu1LmLg" login="ebonneau@tmc.qa01.us.talend.com" firstName="Etienne" lastName="Bonneau" type="DQ"/>
