@@ -11,6 +11,10 @@
   <modules>
     <module>code/beans</module>
     <module>code/routines</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_0.1</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.0</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.1</module>
+    <module>jobs/process/P6_To_ACQ/job_p6_to_acq_300_activitycode_9.2</module>
     <module>jobs/process/demo/onboardingdemojob_0.1</module>
     <module>jobs/process/demorest_0.1</module>
     <module>jobs/process/demorestconsumer_0.1</module>
