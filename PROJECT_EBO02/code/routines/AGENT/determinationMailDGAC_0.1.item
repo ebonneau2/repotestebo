@@ -1,0 +1,138 @@
+package routines;
+
+/*
+ * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
+ * it must be before the "{talendTypes}" key.
+ * 
+ * 2. {talendTypes} 's value must be talend Type, it is required . its value should be one of: String, char | Character,
+ * long | Long, int | Integer, boolean | Boolean, byte | Byte, Date, double | Double, float | Float, Object, short |
+ * Short
+ * 
+ * 3. {Category} define a category for the Function. it is required. its value is user-defined .
+ * 
+ * 4. {param} 's format is: {param} <type>[(<default value or closed list values>)] <name>[ : <comment>]
+ * 
+ * <type> 's value should be one of: string, int, list, double, object, boolean, long, char, date. <name>'s value is the
+ * Function's parameter name. the {param} is optional. so if you the Function without the parameters. the {param} don't
+ * added. you can have many parameters for the Function.
+ * 
+ * 5. {example} gives a example for the Function. it is optional.
+ */
+public class determinationMailDGAC {
+
+    /**
+     * mailDGAC: Détermination du mail DGAC pour les listes sharepoint Agents ENAC et Agents mouvements
+     * 
+     * 
+     * {talendTypes} String
+     * 
+     * {Category} User Defined
+     * 
+     * {param} string("mailEquivalentLdapAngelique") mailEquivalentLdapAngelique
+     * {param} string("mailActiveDirectory") mailActiveDirectory
+     * {param} string("mailAngelique") mailAngelique
+     */
+    public static String mailDGAC(String mailEquivalentLdapAngelique,
+    							String mailActiveDirectory,
+    							String mailAngelique) {
+    	String extractMailDGAC="";
+    	String extractDebutMailDGAC="";
+    	String extractFinMailDGAC="";
+    	String mailEquivalentLdapAngeliqueExtract="";
+    	if((mailAngelique!=null) && !(mailAngelique.isEmpty())) {
+    		if(mailAngelique.contains("@aviation-civile.gouv.fr")) {
+    			extractMailDGAC=mailAngelique;
+    		}
+    	} 	
+    	
+    	if(extractMailDGAC.equals("")) {
+    		if((mailEquivalentLdapAngelique != null) && !(mailEquivalentLdapAngelique.isEmpty())){
+    			if(mailEquivalentLdapAngelique.contains("@aviation-civile.gouv.fr")) {
+    				extractDebutMailDGAC = mailEquivalentLdapAngelique.substring(0, mailEquivalentLdapAngelique.indexOf("aviation"));
+    				extractFinMailDGAC = mailEquivalentLdapAngelique.substring(mailEquivalentLdapAngelique.indexOf("aviation"));
+        			if(extractDebutMailDGAC.lastIndexOf(";")>0) {
+        				extractDebutMailDGAC = extractDebutMailDGAC.substring(extractDebutMailDGAC.lastIndexOf(";")+1);
+        			}
+        			if(extractFinMailDGAC.indexOf(";") > 0) {
+        				extractFinMailDGAC = extractFinMailDGAC.substring(0,extractFinMailDGAC.indexOf(";"));
+        			}
+        			extractMailDGAC = extractDebutMailDGAC.concat(extractFinMailDGAC);
+    			}
+    		}
+    		
+    	}
+    	
+    	if(extractMailDGAC.equals("")) {
+    		if((mailAngelique!=null) && !(mailAngelique.isEmpty())) {
+        		if(mailAngelique.contains("@regis-dgac.net")) {
+        			extractMailDGAC=mailAngelique;
+        		}
+        	}
+    	}
+    	
+    	if(extractMailDGAC.equals("")) {
+    		if((mailEquivalentLdapAngelique != null) && !(mailEquivalentLdapAngelique.isEmpty())){
+    			if(mailEquivalentLdapAngelique.contains("@regis-dgac.net")) {
+    				extractDebutMailDGAC = mailEquivalentLdapAngelique.substring(0, mailEquivalentLdapAngelique.indexOf("regis"));
+    				extractFinMailDGAC = mailEquivalentLdapAngelique.substring(mailEquivalentLdapAngelique.indexOf("regis"));
+        			if(extractDebutMailDGAC.lastIndexOf(";")>0) {
+        				extractDebutMailDGAC = extractDebutMailDGAC.substring(extractDebutMailDGAC.lastIndexOf(";")+1);
+        			}
+        			if(extractFinMailDGAC.indexOf(";") > 0) {
+        				extractFinMailDGAC = extractFinMailDGAC.substring(0,extractFinMailDGAC.indexOf(";"));
+        			}
+        			extractMailDGAC = extractDebutMailDGAC.concat(extractFinMailDGAC);
+    			}
+    		}
+    		
+    	}
+    	if(extractMailDGAC.equals("")) {
+    		if((mailAngelique!=null) && !(mailAngelique.isEmpty())) {
+    			if(!(mailAngelique.contains("@enac.fr")) && 
+    			!(mailAngelique.contains("@developpement-durable.gouv.fr"))) {
+        			extractMailDGAC=mailAngelique;
+        		}
+    		}   		
+    	}
+    	if(extractMailDGAC.equals("")) {
+    		if((mailEquivalentLdapAngelique != null) && !(mailEquivalentLdapAngelique.isEmpty())){
+    			 if(mailEquivalentLdapAngelique.indexOf(";")>0) {
+    			if(!(mailEquivalentLdapAngelique.substring(0, mailEquivalentLdapAngelique.indexOf(";")).contains("@enac.fr")) &&
+    				!(mailEquivalentLdapAngelique.substring(0, mailEquivalentLdapAngelique.indexOf(";")).contains("@developpement-durable.gouv.fr"))){
+    				extractMailDGAC = mailEquivalentLdapAngelique.substring(0, mailEquivalentLdapAngelique.indexOf(";"));
+    			}
+    		 }else {
+    			 if(!(mailEquivalentLdapAngelique.contains("@enac.fr")) &&
+    	    		!(mailEquivalentLdapAngelique.contains("@developpement-durable.gouv.fr"))){
+    				 extractMailDGAC = mailEquivalentLdapAngelique;
+    	    			}
+    		 }
+    		}
+    		
+    	}
+    	
+    	
+    	if(extractMailDGAC.equals("")) {
+    		if((mailEquivalentLdapAngelique != null) && !(mailEquivalentLdapAngelique.isEmpty())){
+    			if(mailEquivalentLdapAngelique.indexOf(";")>0) {
+    			mailEquivalentLdapAngeliqueExtract = mailEquivalentLdapAngelique.substring(mailEquivalentLdapAngelique.indexOf(";")+1);
+    			if(mailEquivalentLdapAngeliqueExtract.indexOf(";")>0) {
+        			extractMailDGAC = mailEquivalentLdapAngeliqueExtract.substring(0, mailEquivalentLdapAngeliqueExtract.indexOf(";"));
+        		}else {
+        			extractMailDGAC = mailEquivalentLdapAngeliqueExtract;
+        		}	
+    			}
+    		}
+    		
+   	}
+    	if(extractMailDGAC.equals("")) {
+    		if((mailActiveDirectory != null) && !(mailActiveDirectory.isEmpty())) {
+        		extractMailDGAC=mailActiveDirectory.substring(0, mailActiveDirectory.indexOf("@")).concat("@aviation-civile.gouv.fr");
+        	}
+    		
+    	}          	
+            
+    	
+       return extractMailDGAC;
+    }
+}

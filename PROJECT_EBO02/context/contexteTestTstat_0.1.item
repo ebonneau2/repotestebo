@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_usM6MMnxEeuH-47cgxRDVg">
+    <contextParameter comment="" name="cheminFichier" prompt="cheminFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/Users/chanfrem/Desktop/EC_Gouvernance_Donnees/VALIDATION_CODE/REF_AGENT/2-OUTPUT/" xmi:id="_usM6McnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichier" prompt="nomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="testLOC.csv" xmi:id="_usM6MsnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichierTstat" prompt="nomFichierTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tstatLOC.csv" xmi:id="_N8M1kMn2EeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomTableTstat" prompt="nomTableTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tstatcatcher" xmi:id="_MVITUM3WEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTlog" prompt="nomTableTlog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tlogcatcher" xmi:id="_AfwyYM3XEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTflow" prompt="nomTableTflow?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tflowmetercatcher" xmi:id="_AfwyYc3XEeuLs_9dlSP6hg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_usM6M8nxEeuH-47cgxRDVg">
+    <contextParameter comment="" name="cheminFichier" prompt="cheminFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/AGENT/2-OUTPUT/" xmi:id="_usM6NMnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichier" prompt="nomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="testDEV.csv" xmi:id="_usM6NcnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichierTstat" prompt="nomFichierTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tstatDEV.csv" xmi:id="_N8M1kcn2EeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomTableTstat" prompt="nomTableTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tstatcatcher" xmi:id="_MVITUc3WEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTlog" prompt="nomTableTlog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tlogcatcher" xmi:id="_AfwyYs3XEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTflow" prompt="nomTableTflow?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tflowmetercatcher" xmi:id="_AfwyY83XEeuLs_9dlSP6hg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_usM6NsnxEeuH-47cgxRDVg">
+    <contextParameter comment="" name="cheminFichier" prompt="cheminFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/AGENT/2-OUTPUT/" xmi:id="_usM6N8nxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichier" prompt="nomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="testPROD.csv" xmi:id="_usM6OMnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichierTstat" prompt="nomFichierTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tstatPROD.csv" xmi:id="_N8M1ksn2EeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomTableTstat" prompt="nomTableTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tstatcatcher" xmi:id="_MVITUs3WEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTlog" prompt="nomTableTlog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tlogcatcher" xmi:id="_AfwyZM3XEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTflow" prompt="nomTableTflow?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tflowmetercatcher" xmi:id="_AfwyZc3XEeuLs_9dlSP6hg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="RECETTE" xmi:id="_usM6OcnxEeuH-47cgxRDVg">
+    <contextParameter comment="" name="cheminFichier" prompt="cheminFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="/data/AGENT/2-OUTPUT/" xmi:id="_usM6OsnxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichier" prompt="nomFichier?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="testRECETTE.csv" xmi:id="_usM6O8nxEeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomFichierTstat" prompt="nomFichierTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="tstatRECETTE.csv" xmi:id="_N8M1k8n2EeuH-47cgxRDVg"/>
+    <contextParameter comment="" name="nomTableTstat" prompt="nomTableTstat?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tstatcatcher" xmi:id="_MVITU83WEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTlog" prompt="nomTableTlog?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tlogcatcher" xmi:id="_AfwyZs3XEeuLs_9dlSP6hg"/>
+    <contextParameter comment="" name="nomTableTflow" prompt="nomTableTflow?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="SURV_tflowmetercatcher" xmi:id="_AfwyZ83XEeuLs_9dlSP6hg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_64fe1b37-bf09-4b43-b88a-1f2f8ac15dc1"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>wdEgAdlLs5tQd3Dvyu/C9IZdqvJSWHiX3N2fNud66GplTq9rysLAGcvp6W2TJoODwz77V5jsyrjZ&#13;
+o0THmcRxeQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_b7488b2b-eddf-4873-b360-11e9b2cfcdfe"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5GHz0Dyj9dqenz7kvQjVaxF+FPIvPQnO62sYxVdSUqSeooxJk/+4XxyngJq0fxqbJd6rESMLbnu1&#13;
+hPk9fWTJ4g==</DigestValue></Reference></SignedInfo><SignatureValue>kwL0qsoockxQvVpOcNqwppD7ADhWcZp4JAqJ7crm9UhhQ7kz2f6MDfOGOgK5r2bLHx2tjdPcZsyS&#13;
+OcDnTKSeBl5vNHuHQen0BX45hh2speawL9ld+vWB26EGpr9w3T0Dy8oG17cg8TKr1KpUaDdwFxU2&#13;
+OFsgv8Aoyz/svDILxsuQQkfZZRWXizAHnUHXJ+QPMDmiWOGgpkMBynFNeT9D6eIOvw1cOloP6/yc&#13;
+cIQzgelqExI9dsMh+QhNMc64GlyEo1MRg5dli+ib/S0QU3FNmWd9erTWAqy8N41qn8Di3bHiETE4&#13;
+ftzMbKbS1S3Zcq5Tt0TFFJ3DbH7qaHc9pPtKYQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_b7488b2b-eddf-4873-b360-11e9b2cfcdfe" Target="#_64fe1b37-bf09-4b43-b88a-1f2f8ac15dc1"><Timestamp>2021-06-28 14:50:12</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

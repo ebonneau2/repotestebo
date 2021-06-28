@@ -13,6 +13,7 @@
     <module>code/routines</module>
     <module>jobs/joblets/BDI_MAIN/BDI2000_JOBLETS/mjoblet2001_load_context_0.1</module>
     <module>jobs/joblets/exception_handling_0.1</module>
+    <module>jobs/process/AGENT/TEST/test_context_tstat_0.1</module>
     <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_1_sqoop_ingestion_1.0</module>
     <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_2_sqoop_ingestion_0.1</module>
     <module>jobs/process/DIF_MAIN/SOURCE_INGESTION_400/cjob400_3_sqoop_ingestion_0.1</module>
