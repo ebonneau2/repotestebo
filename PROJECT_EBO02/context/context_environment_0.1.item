@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="dev" xmi:id="_McPnwDX6EeqU0MGwbZZOtw">
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="dev" xmi:id="_McPnwTX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_raw" prompt="zone_raw?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" xmi:id="_McPnwjX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_stnd" prompt="zone_stnd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="standardized" xmi:id="_McPnwzX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_cons" prompt="zone_cons?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="consumption" xmi:id="_McPnxDX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="FROM_DATE" prompt="FROM_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2021-05-15" xmi:id="_McPnxTX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="TO_DATE" prompt="TO_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2021-06-06" xmi:id="_McPnxjX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="INGESTION_ID" prompt="INGESTION_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_McPnxzX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_prep" prompt="zone_prep?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="preparation" xmi:id="_McPnyDX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="CR_SALEDATE" prompt="CR_SALEDATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2020-01-01" xmi:id="_eaCMgEzDEeqx5oB31ilgsw"/>
+    <contextParameter comment="" name="zone_mdm" prompt="zone_mdm?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdm" xmi:id="_kn1uIFJLEeqETvoKcxO-Fw"/>
+    <contextParameter comment="" name="PARAM_FOLDER" prompt="PARAM_FOLDER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="F:/Talend/AUDIT/" xmi:id="_LduPQHcPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="PARAM_FILE" prompt="PARAM_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="param_dates.txt" xmi:id="_LduPQXcPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="azure_storage_env" prompt="azure_storage_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://febigdatadldev.blob.core.windows.net/?sv=2019-12-12&amp;ss=bfqt&amp;srt=sco&amp;sp=rwdlacupx&amp;se=2025-10-31T11:34:30Z&amp;st=2021-02-01T03:34:30Z&amp;spr=https&amp;sig=hkJ%2BitsohQ4RSe3P2Omdb16ilbccP74OXnqsnSDTWp0%3D" xmi:id="_I-u3cJXTEeqi18uKTfI0Ng"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="_McPnyTX6EeqU0MGwbZZOtw">
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="prod" xmi:id="_McPnyjX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_raw" prompt="zone_raw?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" xmi:id="_McPnyzX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_stnd" prompt="zone_stnd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="standardized" xmi:id="_McPnzDX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_cons" prompt="zone_cons?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="consumption" xmi:id="_McPnzTX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="FROM_DATE" prompt="FROM_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="1900-01-01" xmi:id="_McPnzjX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="TO_DATE" prompt="TO_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2021-06-08" xmi:id="_McPnzzX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="INGESTION_ID" prompt="INGESTION_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_McPn0DX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_prep" prompt="zone_prep?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="preparation" xmi:id="_McPn0TX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="CR_SALEDATE" prompt="CR_SALEDATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2020-01-01" xmi:id="_eaCMgUzDEeqx5oB31ilgsw"/>
+    <contextParameter comment="" name="zone_mdm" prompt="zone_mdm?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdm" xmi:id="_kn1uIVJLEeqETvoKcxO-Fw"/>
+    <contextParameter comment="" name="PARAM_FOLDER" prompt="PARAM_FOLDER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="F:/Talend/AUDIT/" xmi:id="_LduPQncPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="PARAM_FILE" prompt="PARAM_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="param_dates.txt" xmi:id="_LduPQ3cPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="azure_storage_env" prompt="azure_storage_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://febdproddatalake.blob.core.windows.net/?sv=2019-10-10&amp;ss=bfqt&amp;srt=sco&amp;sp=rwdlacupx&amp;se=2025-05-10T16:56:58Z&amp;st=2020-05-10T08:56:58Z&amp;spr=https&amp;sig=%2FkPWFlWI4hM%2F2nRQnn0tLCjbyF5yTjTTRcTFjF4oseI%3D" xmi:id="_I-u3cZXTEeqi18uKTfI0Ng"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="uat" xmi:id="_McPn0jX6EeqU0MGwbZZOtw">
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="omninewrelease" xmi:id="_McPn0zX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_raw" prompt="zone_raw?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" xmi:id="_McPn1DX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_stnd" prompt="zone_stnd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="standardized" xmi:id="_McPn1TX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_cons" prompt="zone_cons?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="consumption" xmi:id="_McPn1jX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="FROM_DATE" prompt="FROM_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_McPn1zX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="TO_DATE" prompt="TO_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_McPn2DX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="INGESTION_ID" prompt="INGESTION_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_McPn2TX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="zone_prep" prompt="zone_prep?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="preparation" xmi:id="_McPn2jX6EeqU0MGwbZZOtw"/>
+    <contextParameter comment="" name="CR_SALEDATE" prompt="CR_SALEDATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2020-01-01" xmi:id="_eaCMgkzDEeqx5oB31ilgsw"/>
+    <contextParameter comment="" name="zone_mdm" prompt="zone_mdm?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdm" xmi:id="_kn1uIlJLEeqETvoKcxO-Fw"/>
+    <contextParameter comment="" name="PARAM_FOLDER" prompt="PARAM_FOLDER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="F:/Talend/AUDIT/" xmi:id="_LduPRHcPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="PARAM_FILE" prompt="PARAM_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="param_dates.txt" xmi:id="_LduPRXcPEeqYXp1wR7TS5w"/>
+    <contextParameter comment="" name="azure_storage_env" prompt="azure_storage_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://febigdatadldev.blob.core.windows.net/?sv=2019-12-12&amp;ss=bfqt&amp;srt=sco&amp;sp=rwdlacupx&amp;se=2025-10-31T11:34:30Z&amp;st=2021-02-01T03:34:30Z&amp;spr=https&amp;sig=hkJ%2BitsohQ4RSe3P2Omdb16ilbccP74OXnqsnSDTWp0%3D" xmi:id="_I-u3cpXTEeqi18uKTfI0Ng"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="nfr" xmi:id="_0CSPwKi3Eequ8Jln4O80dw">
+    <contextParameter comment="" name="env" prompt="env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="nfr" xmi:id="_0CSPwai3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="zone_raw" prompt="zone_raw?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="raw" xmi:id="_0CSPwqi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="zone_stnd" prompt="zone_stnd?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="standardized" xmi:id="_0CSPw6i3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="zone_cons" prompt="zone_cons?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="consumption" xmi:id="_0CSPxKi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="FROM_DATE" prompt="FROM_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_0CSPxai3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="TO_DATE" prompt="TO_DATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="" xmi:id="_0CSPxqi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="INGESTION_ID" prompt="INGESTION_ID?" promptNeeded="false" repositoryContextId="built-in" type="id_Integer" value="1" xmi:id="_0CSPx6i3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="zone_prep" prompt="zone_prep?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="preparation" xmi:id="_0CSPyKi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="CR_SALEDATE" prompt="CR_SALEDATE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="2020-01-01" xmi:id="_0CSPyai3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="zone_mdm" prompt="zone_mdm?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="mdm" xmi:id="_0CSPyqi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="PARAM_FOLDER" prompt="PARAM_FOLDER?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="F:/Talend/AUDIT/" xmi:id="_0CSPy6i3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="PARAM_FILE" prompt="PARAM_FILE?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="param_dates.txt" xmi:id="_0CSPzKi3Eequ8Jln4O80dw"/>
+    <contextParameter comment="" name="azure_storage_env" prompt="azure_storage_env?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="https://febigdatadldev.blob.core.windows.net/?sv=2019-12-12&amp;ss=bfqt&amp;srt=sco&amp;sp=rwdlacupx&amp;se=2025-10-31T11:34:30Z&amp;st=2021-02-01T03:34:30Z&amp;spr=https&amp;sig=hkJ%2BitsohQ4RSe3P2Omdb16ilbccP74OXnqsnSDTWp0%3D" xmi:id="_0CSPzai3Eequ8Jln4O80dw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_007062e3-d228-4567-ab29-ba842be72757"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CT+YDepoOGYzUXzapoYhUqzUSm3MbQfoN/bSfjz1G61P096/Fgr+6769AYr2uWLgsDxHgT/v7VLl&#13;
+OHjSRAYe7g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_6a006c5a-64f4-452a-9ab6-bfa784d81964"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>t6GPpTDFcffZgW6aQccejTBc82KqMoUpM1uRkAXSW9q7TYiBAehYIJ6Ku2I75ClNxpDDUV1tHmb9&#13;
+IKeJ5M572A==</DigestValue></Reference></SignedInfo><SignatureValue>DWNEeeKvc4lumUogFyOxUi9XSMDCd6mDJgEo7iffX80fuXi5CgtMGKBfmzf5RzhXAZmb9qQIBj1b&#13;
+bGkM+vs93lXgb9+Sxd7CIpDZOMzF1MXrS80aAB5jAm7UKUZlbCRRjMnHNPFdZp2naEBOyvJSONAp&#13;
+ftRr6hfSQ/fN/rI1m+uygl0Ht5WbuE5dMwly8jCydiMJM/AOaerSd2WSZ0BjA/K/YlQWOAIeESA2&#13;
+ehIuFVNt0jZoyKHjM/yJT/DUgyh7ZvGwJ8CcavrBJrun1MdQm7HPKWvlisZChD4twxcvY7zK81c+&#13;
+CufSjhIGWL/F5qWnce77rl2aEPVbvYiTUaeQIw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_6a006c5a-64f4-452a-9ab6-bfa784d81964" Target="#_007062e3-d228-4567-ab29-ba842be72757"><Timestamp>2021-06-30 07:24:52</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

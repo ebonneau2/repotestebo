@@ -1,0 +1,38 @@
+{
+  "itemId" : "_--P94Nf-EeuETPT2nyOzqQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_Qcz8UBvyEeqExLRNI4Ro6g",
+    "parameterList" : [ {
+      "id" : "_McPnyzX6EeqU0MGwbZZOtw",
+      "name" : "zone_raw"
+    }, {
+      "id" : "_McPn0DX6EeqU0MGwbZZOtw",
+      "name" : "INGESTION_ID"
+    }, {
+      "id" : "_McPn0TX6EeqU0MGwbZZOtw",
+      "name" : "zone_prep"
+    }, {
+      "id" : "_LduPQncPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FOLDER"
+    }, {
+      "id" : "_kn1uIVJLEeqETvoKcxO-Fw",
+      "name" : "zone_mdm"
+    }, {
+      "id" : "_LduPQ3cPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FILE"
+    }, {
+      "id" : "_McPnzTX6EeqU0MGwbZZOtw",
+      "name" : "zone_cons"
+    }, {
+      "id" : "_McPnyjX6EeqU0MGwbZZOtw",
+      "name" : "env"
+    }, {
+      "id" : "_eaCMgUzDEeqx5oB31ilgsw",
+      "name" : "CR_SALEDATE"
+    }, {
+      "id" : "_McPnzDX6EeqU0MGwbZZOtw",
+      "name" : "zone_stnd"
+    } ]
+  } ]
+}

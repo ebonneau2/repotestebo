@@ -1,0 +1,181 @@
+{
+  "itemId" : "_dQx5UG6MEeqVtaaS9CzVIw",
+  "contextList" : [ {
+    "contextName" : "dev",
+    "repoId" : "_Qcz8UBvyEeqExLRNI4Ro6g",
+    "parameterList" : [ {
+      "id" : "_McPnwjX6EeqU0MGwbZZOtw",
+      "name" : "zone_raw"
+    }, {
+      "id" : "_McPnwTX6EeqU0MGwbZZOtw",
+      "name" : "env"
+    }, {
+      "id" : "_McPnwzX6EeqU0MGwbZZOtw",
+      "name" : "zone_stnd"
+    }, {
+      "id" : "_McPnxTX6EeqU0MGwbZZOtw",
+      "name" : "FROM_DATE"
+    }, {
+      "id" : "_McPnxzX6EeqU0MGwbZZOtw",
+      "name" : "INGESTION_ID"
+    }, {
+      "id" : "_McPnxjX6EeqU0MGwbZZOtw",
+      "name" : "TO_DATE"
+    }, {
+      "id" : "_McPnxDX6EeqU0MGwbZZOtw",
+      "name" : "zone_cons"
+    }, {
+      "id" : "_McPnyDX6EeqU0MGwbZZOtw",
+      "name" : "zone_prep"
+    }, {
+      "id" : "_LduPQHcPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FOLDER"
+    }, {
+      "id" : "_kn1uIFJLEeqETvoKcxO-Fw",
+      "name" : "zone_mdm"
+    }, {
+      "id" : "_LduPQXcPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FILE"
+    }, {
+      "id" : "_eaCMgEzDEeqx5oB31ilgsw",
+      "name" : "CR_SALEDATE"
+    }, {
+      "id" : "_I-u3cJXTEeqi18uKTfI0Ng",
+      "name" : "azure_storage_env"
+    } ]
+  }, {
+    "contextName" : "dev",
+    "repoId" : "_HxujkIPREeqtScHCXDBkoQ",
+    "parameterList" : [ {
+      "id" : "_3YbzpJH3EeqWFPxqmht2og",
+      "name" : "container"
+    }, {
+      "id" : "_3YbzopH3EeqWFPxqmht2og",
+      "name" : "path_landing"
+    }, {
+      "id" : "_3YbzoZH3EeqWFPxqmht2og",
+      "name" : "path_source"
+    }, {
+      "id" : "_3Ybzo5H3EeqWFPxqmht2og",
+      "name" : "source"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_Qcz8UBvyEeqExLRNI4Ro6g",
+    "parameterList" : [ {
+      "id" : "_McPnyzX6EeqU0MGwbZZOtw",
+      "name" : "zone_raw"
+    }, {
+      "id" : "_McPnyjX6EeqU0MGwbZZOtw",
+      "name" : "env"
+    }, {
+      "id" : "_McPnzDX6EeqU0MGwbZZOtw",
+      "name" : "zone_stnd"
+    }, {
+      "id" : "_McPnzjX6EeqU0MGwbZZOtw",
+      "name" : "FROM_DATE"
+    }, {
+      "id" : "_McPn0DX6EeqU0MGwbZZOtw",
+      "name" : "INGESTION_ID"
+    }, {
+      "id" : "_McPnzzX6EeqU0MGwbZZOtw",
+      "name" : "TO_DATE"
+    }, {
+      "id" : "_McPnzTX6EeqU0MGwbZZOtw",
+      "name" : "zone_cons"
+    }, {
+      "id" : "_McPn0TX6EeqU0MGwbZZOtw",
+      "name" : "zone_prep"
+    }, {
+      "id" : "_LduPQncPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FOLDER"
+    }, {
+      "id" : "_kn1uIVJLEeqETvoKcxO-Fw",
+      "name" : "zone_mdm"
+    }, {
+      "id" : "_LduPQ3cPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FILE"
+    }, {
+      "id" : "_eaCMgUzDEeqx5oB31ilgsw",
+      "name" : "CR_SALEDATE"
+    }, {
+      "id" : "_I-u3cZXTEeqi18uKTfI0Ng",
+      "name" : "azure_storage_env"
+    } ]
+  }, {
+    "contextName" : "prod",
+    "repoId" : "_HxujkIPREeqtScHCXDBkoQ",
+    "parameterList" : [ {
+      "id" : "_3YbzrpH3EeqWFPxqmht2og",
+      "name" : "container"
+    }, {
+      "id" : "_3YbzrJH3EeqWFPxqmht2og",
+      "name" : "path_landing"
+    }, {
+      "id" : "_3Ybzq5H3EeqWFPxqmht2og",
+      "name" : "path_source"
+    }, {
+      "id" : "_3YbzrZH3EeqWFPxqmht2og",
+      "name" : "source"
+    } ]
+  }, {
+    "contextName" : "uat",
+    "repoId" : "_Qcz8UBvyEeqExLRNI4Ro6g",
+    "parameterList" : [ {
+      "id" : "_McPn1DX6EeqU0MGwbZZOtw",
+      "name" : "zone_raw"
+    }, {
+      "id" : "_McPn0zX6EeqU0MGwbZZOtw",
+      "name" : "env"
+    }, {
+      "id" : "_McPn1TX6EeqU0MGwbZZOtw",
+      "name" : "zone_stnd"
+    }, {
+      "id" : "_McPn1zX6EeqU0MGwbZZOtw",
+      "name" : "FROM_DATE"
+    }, {
+      "id" : "_McPn2TX6EeqU0MGwbZZOtw",
+      "name" : "INGESTION_ID"
+    }, {
+      "id" : "_McPn2DX6EeqU0MGwbZZOtw",
+      "name" : "TO_DATE"
+    }, {
+      "id" : "_McPn1jX6EeqU0MGwbZZOtw",
+      "name" : "zone_cons"
+    }, {
+      "id" : "_McPn2jX6EeqU0MGwbZZOtw",
+      "name" : "zone_prep"
+    }, {
+      "id" : "_LduPRHcPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FOLDER"
+    }, {
+      "id" : "_kn1uIlJLEeqETvoKcxO-Fw",
+      "name" : "zone_mdm"
+    }, {
+      "id" : "_LduPRXcPEeqYXp1wR7TS5w",
+      "name" : "PARAM_FILE"
+    }, {
+      "id" : "_eaCMgkzDEeqx5oB31ilgsw",
+      "name" : "CR_SALEDATE"
+    }, {
+      "id" : "_I-u3cpXTEeqi18uKTfI0Ng",
+      "name" : "azure_storage_env"
+    } ]
+  }, {
+    "contextName" : "uat",
+    "repoId" : "_HxujkIPREeqtScHCXDBkoQ",
+    "parameterList" : [ {
+      "id" : "_3YbzqZH3EeqWFPxqmht2og",
+      "name" : "container"
+    }, {
+      "id" : "_3Ybzp5H3EeqWFPxqmht2og",
+      "name" : "path_landing"
+    }, {
+      "id" : "_3YbzppH3EeqWFPxqmht2og",
+      "name" : "path_source"
+    }, {
+      "id" : "_3YbzqJH3EeqWFPxqmht2og",
+      "name" : "source"
+    } ]
+  } ]
+}
