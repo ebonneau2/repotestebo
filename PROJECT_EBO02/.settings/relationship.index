@@ -194,6 +194,21 @@
   } ]
 }, {
   "baseItem" : {
+    "id" : "_2p25MNP1EeuIP-MNbQponQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "TALEND_NRB:_D-JawNPrEeuIP-MNbQponQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "TALEND_NRB:_ImRccNPrEeuIP-MNbQponQ",
+    "version" : "Latest",
+    "type" : "job"
+  } ]
+}, {
+  "baseItem" : {
     "id" : "_3V-FUNmoEeuo0pLuiu7Y5w",
     "version" : "0.1",
     "type" : "job"
