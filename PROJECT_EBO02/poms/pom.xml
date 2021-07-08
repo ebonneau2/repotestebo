@@ -49,6 +49,7 @@
     <module>jobs/process/jobpasswordparameters_0.1</module>
     <module>jobs/process/log_types_generation_0.1</module>
     <module>jobs/process/log_types_generation_failed_0.1</module>
+    <module>jobs/process/log_types_generation_failed_copy_0.1</module>
     <module>jobs/process/slashchiljob_0.1</module>
     <module>jobs/process/slashmainjob_0.1</module>
     <module>jobs/process/test_esb_bug_0.1</module>
