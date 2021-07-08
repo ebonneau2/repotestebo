@@ -49,7 +49,7 @@
     <module>jobs/process/jobpasswordparameters_0.1</module>
     <module>jobs/process/log_types_generation_0.1</module>
     <module>jobs/process/log_types_generation_error_0.1</module>
-    <module>jobs/process/log_types_generation_error_copy_0.1</module>
+    <module>jobs/process/log_types_generation_error_log4j1_0.1</module>
     <module>jobs/process/log_types_generation_fatal_0.1</module>
     <module>jobs/process/log_types_generation_fatal_log4j1_0.1</module>
     <module>jobs/process/slashchiljob_0.1</module>
